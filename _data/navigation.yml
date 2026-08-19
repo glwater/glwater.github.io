@@ -1,0 +1,18 @@
+# Left Sidebar Navigation Menu
+docs-sidebar:
+  - title: "Monitored Districts"
+    children:
+      - title: "Grand Lakes MUD 1"
+        url: /mud1/
+      - title: "Grand Lakes MUD 2"
+        url: /mud2/
+      - title: "Grand Lakes MUD 4"
+        url: /mud4/
+      - title: "Grand Lakes WCID"
+        url: /wcid/
+  - title: "Investigations"
+    children:
+      - title: "Budget Analyses"
+        url: /budgets/
+      - title: "Conflicts of Interest"
+        url: /conflicts/
