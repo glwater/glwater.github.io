@@ -1,11 +1,16 @@
 # Site Settings
 title: "Grand Lakes Water Districts"
-description: "Dedicated to transparency and lawful governance across Grand Lakes MUDs & WCID. We expose conflicts of interest, fight consultant legal abuse, and audit fishy budgets."
+description: "Dedicated to transparency and lawful governance the across Grand Lakes MUDs and WCID. We expose conflicts of interest, fight consultant legal abuse, and audit fishy budgets."
 url: "https://glwater.github.io"
 
-# Theme Setup
+# Plugins Configuration (This tells GitHub how to fetch the theme code!)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Remote Theme Setup
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
-minimal_mistakes_skin: "default" # Clean white background with gray text box elements
+minimal_mistakes_skin: "default" 
 
 # Site Defaults
 defaults:
@@ -13,7 +18,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "single"      # Makes posts load in clean standalone reading blocks
-      author_profile: true  # Activates the left sidebar layout
+      layout: "single"      
+      author_profile: true  
       sidebar:
-        nav: "docs-sidebar" # Connects your left-side menu links
+        nav: "docs-sidebar" 
