@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Grand Lakes Water Districts: Action for Justice and Accountability"
+title: ""
 author_profile: true
 sidebar:
   nav: "docs-sidebar"
