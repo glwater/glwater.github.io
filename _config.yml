@@ -31,10 +31,11 @@ kramdown:
   auto_ids: true
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-seo-tag       # Add {% seo %} before </head>
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-archives
   - jemoji
 
 exclude:
@@ -92,6 +93,9 @@ defaults:
 # Pagination Settings
 pagination:
   enabled: true
+
+# paginate: 10
+# paginate_path: "/page:num/"
 
 # Archive page configurations
 tag_archive:
