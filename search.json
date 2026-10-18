@@ -1,0 +1,225 @@
+[
+  
+  
+  
+  
+
+  
+    {
+      "title"    : "Launch of the Grand Lakes Community Portal",
+      "category" : ["Announcements"],
+      "url"      : "/content/001_launch.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "How to Subscribe to Our Instant Portal Updates",
+      "category" : ["Guides"],
+      "url"      : "/content/002_subscribe.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Join the Team: Volunteer with the Portal",
+      "category" : ["Guides"],
+      "url"      : "/content/003_volunteer.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "🚨 Grand Lakes Civic Awareness & Family Education Guide<br> 🧩 Part 1: This Word Cloud Is Not a Toy, It’s a Battleground for Our Future",
+      "category" : ["Alerts","Awareness","Governance"],
+      "url"      : "/content/004a_alert-awareness.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "🚨 Grand Lakes Civic Awareness & Family Education Guide<br> 🧩 Part 2: The MUD / WCID Open Government & Accountability Crossword Puzzle",
+      "category" : ["Awareness","Governance"],
+      "url"      : "/content/004b_xword-children.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "🚨 Grand Lakes Civic Awareness & Family Education Guide<br> 🧩 Part 3: Grow Your Younger Kids into Community Detectives!",
+      "category" : ["Awareness","Governance"],
+      "url"      : "/content/004c_xword-kids.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "🚨 Grand Lakes Civic Awareness & Family Education Guide<br> 📋 Part 4: The Family Neighborhood Mission Checklist",
+      "category" : ["Alerts","Awareness","Governance"],
+      "url"      : "/content/004d_family-mission.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Math & Logic of Good / Lawful Governance<br> Part 1: The Mathematical Model",
+      "category" : ["Governance"],
+      "url"      : "/content/005a_logic.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Math & Logic of Good / Lawful Governance<br> Part 2: 🧩 The Mathematical Relationships",
+      "category" : ["Governance"],
+      "url"      : "/content/005b_logic.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Math & Logic of Good / Lawful Governance<br> Part 3: The Governance Chain",
+      "category" : ["Governance"],
+      "url"      : "/content/005c_logic.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Taking Back the Board: How to Run for a Grand Lakes MUD/WCID Seat",
+      "category" : ["Election","Governance"],
+      "url"      : "/content/006_run-seat.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "📅 🗓️ Grand Lakes Water District Meeting Calendar and Watch",
+      "category" : ["Governance"],
+      "url"      : "/content/007_mtg-watch.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Attending the Water District Monthly Meetings",
+      "category" : ["Governance"],
+      "url"      : "/content/008_attend-meetings.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Know Your Rights Guide: How to Request Public Records Under the Texas Public Information Act (PIA)",
+      "category" : ["Guides","Compliance"],
+      "url"      : "/content/009_PIrequest.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Understanding the System: TCEQ & The Texas Water Code",
+      "category" : ["Awareness","Governance"],
+      "url"      : "/content/010_understand-system.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Principles of Lawful Governance",
+      "category" : ["Governance","Oversight"],
+      "url"      : "/content/011_governance.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "✉️ Template Letter to District Board Directors",
+      "category" : ["Awareness","Governance","Finances"],
+      "url"      : "/content/012_contact-reps.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "📜 An Open Letter to the Twenty Board Members of the Grand Lakes Water Districts",
+      "category" : ["Governance","Awareness"],
+      "url"      : "/content/013_be-accessible.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Grand Lakes Community Oversight Project is Also Hosting a Facebook Page",
+      "category" : ["Governance","Oversight"],
+      "url"      : "/content/014_Facebook.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Grand Lakes Community Oversight Project is Also Hosting an X Profile",
+      "category" : ["Governance","Oversight"],
+      "url"      : "/content/015_X.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "What Is a Texas Municipal Utility District (MUD)?",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/001_MUDs.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "What Is a Texas Water Control and Improvement District (WCID)?",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/002_WCIDs.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Legal, Ethical, Moral, and Civic Duties of Water-District Boards",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/003_Duties-Boards.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "The Legal, Ethical, Moral, and Civic Duties of Water-District Consultants",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/004_Duties-Consultants.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Who Controls a Water District?",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/005_Controlling.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Guide: The Texas Open Meetings Act in Brief",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/006_Brief-OMA.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Guide: The Texas Public Information Act in Brief",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/007_Brief-PIA.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Structure of the Grand Lakes Water Districts",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/008_GL-structure.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Know Your Water District Board",
+      "category" : ["Election","Guides","Governance"],
+      "url"      : "/guides/009_GLWD-boards.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Grand Lakes Community Maps",
+      "category" : ["Guides"],
+      "url"      : "/guides/010_GL-maps.html",
+      "date"     : "October 18, 2026"
+    } ,
+  
+    {
+      "title"    : "Know the Consultants Serving the Grand Lakes Water Districts",
+      "category" : ["Guides","Governance"],
+      "url"      : "/guides/011_GLWD-consultants.html",
+      "date"     : "October 18, 2026"
+    } 
+  
+]
