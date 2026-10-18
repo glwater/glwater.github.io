@@ -4,7 +4,7 @@ title: "The Legal, Ethical, Moral, and Civic Duties of Water-District Boards"
 categories: [Guides, Governance]
 tags: [board, director, duty, public trust, Texas Constitution, Water Code, Government Code, Election Code, Tax Code, Local Government Code, independent judgment, conflict of interest, transparency, impartiality, accountability, stewardship, Open Meetings Act, Public Information Act, open government, private interests, oversight, consultant]
 author: Grand Lakes Community Portal
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article talks about the legal, ethical, moral, and civic duties of water-district boards⎯obeying the law, exercising independent judgment, stewardship, identifying conflicts, transparency, supervising consultants, and more."
+preview: "Foundational Series: Know Your Water District. This introductory article talks about the legal, ethical, moral, and civic duties of water-district boards⎯obeying the law, exercising independent judgment, stewardship, identifying conflicts, transparency, supervising consultants, and more."
 prvimg: "/assets/imgs/lilyw1.jpg"
 date: 2026-10-18
 ---

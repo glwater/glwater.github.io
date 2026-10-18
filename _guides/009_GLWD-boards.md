@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Know Your Water District Board"
-preview: "Foundational Series&#x3a; Know Your Water District. Recognizing that the legal system was being leveraged as an expensive wall against them, Grand Lakes residents took their grievances directly to the ballot box. In the local election on May 2, 2026, the Grand Lakes community turned out and voted out long-standing board members, marking a major turning point toward accountability and signaling a clear warning to remaining district consultants..."
+preview: "Foundational Series: Know Your Water District. Recognizing that the legal system was being leveraged as an expensive wall against them, Grand Lakes residents took their grievances directly to the ballot box. In the local election on May 2, 2026, the Grand Lakes community turned out and voted out long-standing board members, marking a major turning point toward accountability and signaling a clear warning to remaining district consultants..."
 prvimg: "/assets/imgs/boards.png"
 tags: [Grand Lakes, MUD2, MUD4, MUD1, WCID, board, election, vote, residents, accountability, consultant, Schwartz Page & Harding]
 categories: [Election, Guides, Governance]

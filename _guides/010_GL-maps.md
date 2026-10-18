@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Grand Lakes Community Maps"
-preview: "Foundational Series&#x3a; Know Your Water District. Grand Lakes community maps showing the voter precincts and jurisdiction of the four water districts serving the neighborhood."
+preview: "Foundational Series: Know Your Water District. Grand Lakes community maps showing the voter precincts and jurisdiction of the four water districts serving the neighborhood."
 prvimg: "/assets/imgs/GL.jpg"
 categories: Guides
 tags: [MUD, WCID, Grand Lakes, Katy, Fort Bend County, Texas, voter precinct, community, map]

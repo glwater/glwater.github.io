@@ -6,7 +6,7 @@ tags: [MUD, water, wastewater, public utility, local government, accountability,
        governing body, board, director, consultant, Texas, Water Code, Tax Code, Election Code, 
        Government Code, Local Government Code, Public Information Act, Open Meetings Act]
 author: Grand Lakes Community Portal
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article talks about Municipal Utility Districts (MUDs); their functions, powers, governance, and why their business and affairs matter to the residents and taxpayers."
+preview: "Foundational Series: Know Your Water District. This introductory article talks about Municipal Utility Districts (MUDs); their functions, powers, governance, and why their business and affairs matter to the residents and taxpayers."
 prvimg: "/assets/imgs/wshrub.jpg"
 date: 2026-10-18
 ---

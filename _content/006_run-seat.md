@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Taking Back the Board&#x3a; How to Run for a Grand Lakes MUD/WCID Seat"
+title: "Taking Back the Board: How to Run for a Grand Lakes MUD/WCID Seat"
 preview: "How residents / taxpayers must run for office if we need to take back control of the Grand Lakes water districts. If not, we are giving compromised consultants the opportunity to defraud us for another 40 years."
 prvimg: "/assets/imgs/seat.svg"
 categories: [Election, Governance]

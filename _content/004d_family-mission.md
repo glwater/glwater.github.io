@@ -2,7 +2,7 @@
 layout: page
 title: "🚨 Grand Lakes Civic Awareness & Family Education Guide<br>
         📋 Part 4: The Family Neighborhood Mission Checklist"
-preview: "A Civic Awareness & Family Education Guide. This part introduces a Family Mission Checklist to guide your child through investigating a local government---the MUD (Municipal Utility District) and WCID (Water Control & Improvement District) that serve our neighborhood. Share what you discovered during this challenge with your neighbors, friends, teacher, class, and us!"
+preview: "A Civic Awareness & Family Education Guide. This part introduces a Family Mission Checklist to guide your child through investigating a local government—the MUD (Municipal Utility District) and WCID (Water Control & Improvement District) that serve our neighborhood. Share what you discovered during this challenge with your neighbors, friends, teacher, class, and us!"
 prvimg: "/assets/imgs/chklst.png"
 tags: [family, mission, local government, MUD, checklist, community, protector]
 categories: [Alerts, Awareness, Governance]

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Understanding the System&#x3a; TCEQ & The Texas Water Code"
+title: "Understanding the System: TCEQ & The Texas Water Code"
 preview: "Understanding the System (TCEQ & The Texas Water Code)... To help our neighborhood dive deeper into their research, here is a breakdown of the structural loopholes that allow the issues we face to occur, along with the specific state agencies involved."
 tags: [political subdivision, MUD, WCID, TCEQ, Water Code, board, education, research, children, Public Information Act, fiduciary, duty, accountability, conflict of interest, records, consultant]
 categories: [Awareness, Governance]

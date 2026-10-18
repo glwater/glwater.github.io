@@ -6,7 +6,7 @@ tags: [WCID, MUD, water, wastewater, public utility, local government, accountab
       political subdivision, board, governing body, consultant, Texas, Water Code, 
       Public Information Act, Open Meetings Act, director, projects, audit, contracts]
 author: Grand Lakes Community Portal
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article talks about Water Control and Improvement Districts (WCIDs); their functions, powers, governance, and why their business and affairs matter to the residents. The distinction between MUDs and WCIDs is also discussed."
+preview: "Foundational Series: Know Your Water District. This introductory article talks about Water Control and Improvement Districts (WCIDs); their functions, powers, governance, and why their business and affairs matter to the residents. The distinction between MUDs and WCIDs is also discussed."
 prvimg: "/assets/imgs/whazel.jpg"
 date: 2026-10-18
 ---

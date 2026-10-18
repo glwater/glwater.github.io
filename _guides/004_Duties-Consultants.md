@@ -4,7 +4,7 @@ title: "The Legal, Ethical, Moral, and Civic Duties of Water-District Consultant
 categories: [Guides, Governance]
 tags: [consultant, vendor, board, director, attorney, operator, engineer, bookkeeper, auditor, financial advisor, tax collector, delinquent-tax attorney, trash contractor, website provider, accountability, governing body, advice, expertise, authority, responsibility, records]
 author: Grand Lakes Community Portal
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article talks about the legal, ethical, moral, and civic duties of water-district consultants. They advise, perform, document, and report within their respective areas of responsibility, but are not the governing authority and must never take advantage of the board."
+preview: "Foundational Series: Know Your Water District. This introductory article talks about the legal, ethical, moral, and civic duties of water-district consultants. They advise, perform, document, and report within their respective areas of responsibility, but are not the governing authority and must never take advantage of the board."
 prvimg: "/assets/imgs/fernx.jpg"
 date: 2026-10-18
 ---

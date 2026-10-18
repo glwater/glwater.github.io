@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Know the Consultants Serving the Grand Lakes Water Districts"
-preview: "Foundational Series&#x3a; Know Your Water District. The private firms (attorney, operator, bookkeeper, auditor, financial advisor, engineer, tax collector, delinquent-tax attorney, trash contractor, and web hosting provider) serving the Grand Lakes Water Districts. Said firms are generously compensated to serve, advise, and defend the interests of said districts. They do the opposite..."
+preview: "Foundational Series: Know Your Water District. The private firms (attorney, operator, bookkeeper, auditor, financial advisor, engineer, tax collector, delinquent-tax attorney, trash contractor, and web hosting provider) serving the Grand Lakes Water Districts. Said firms are generously compensated to serve, advise, and defend the interests of said districts. They do the opposite..."
 prvimg: "/assets/imgs/wberry.jpg"
 tags: [Grand Lakes, MUD2, MUD4, MUD1, WCID, consultant, Pape-Dawson, Schwartz Page & Harding, Forvis Mazars, Masterson Advisors, Municipal Accounts & Consulting, 
 Perdue Brandon Fielder Collins & Mott, Municipal District Services (MDS Water), Best Trash, 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Structure of the Grand Lakes Water Districts"
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article presents the structure of the Grand Lakes Water Districts. How the water district business is exploited by private firms (attorney, operator, bookkeeper, auditor, financial advisor, engineer, tax collector, delinquent tax attorney, trash collector, and web hosting provider) generously compensated to serve, advise, and defend the interests of said districts."
+preview: "Foundational Series: Know Your Water District. This introductory article presents the structure of the Grand Lakes Water Districts. How the water district business is exploited by private firms (attorney, operator, bookkeeper, auditor, financial advisor, engineer, tax collector, delinquent tax attorney, trash collector, and web hosting provider) generously compensated to serve, advise, and defend the interests of said districts."
 prvimg: "/assets/imgs/wheat.jpg"
 tags: [Grand Lakes, MUD2, MUD1, MUD4, WCID, consultant, political subdivision, Fort Bend County, 
        Texas, extraterritorial jurisdiction, local government, Strategic Partnership Agreement, 

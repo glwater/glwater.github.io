@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Math & Logic of Good / Lawful Governance<br>
-        Part 3&#x3a; The Governance Chain"
+        Part 3: The Governance Chain"
 tags: [logic, Set Theory, accountability, compliance, oversight, mismanagement, education, mathematical models]
 categories: [Governance]
 preview: "What does lawful governance mean? Set theory gives us a surprisingly powerful vocabulary for showing that good governance is not a collection of isolated virtues: the relationships among them matter."

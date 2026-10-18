@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Guide&#x3a; The Texas Open Meetings Act in Brief"
+title: "Guide: The Texas Open Meetings Act in Brief"
 categories: [Guides, Governance]
 tags: [agenda, minutes, Open Meetings Act, Government Code, notice, deliberation, 
        local government, closed session, trust, board, power]
 author: Grand Lakes Community Portal
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article talks about the Texas Open Meetings Act (OMA), the district's obligations when it comes to conducting official business, and the public's role in ensuring that the power they entrusted government with is exercised lawfully."
+preview: "Foundational Series: Know Your Water District. This introductory article talks about the Texas Open Meetings Act (OMA), the district's obligations when it comes to conducting official business, and the public's role in ensuring that the power they entrusted government with is exercised lawfully."
 prvimg: "/assets/imgs/wflower2.jpg"
 date: 2026-10-18
 ---

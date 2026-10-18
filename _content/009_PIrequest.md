@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Know Your Rights Guide&#x3a; How to Request Public Records Under the Texas Public Information Act (PIA)"
-preview: "Know Your Rights Guide&#x3a; How to request public records under the Texas Public Information Act (PIA)."
+title: "Know Your Rights Guide: How to Request Public Records Under the Texas Public Information Act (PIA)"
+preview: "Know Your Rights Guide: How to request public records under the Texas Public Information Act (PIA)."
 prvimg: "/assets/imgs/txt-rights.png"
 categories: [Guides, Compliance]
 tags: [MUD4, MUD1, MUD2, WCID, information, records, Government Code, Texas, Public Information Act, Grand Lakes]

@@ -4,7 +4,7 @@ title: "Who Controls a Water District?"
 categories: [Guides, Governance]
 tags: [consultant, vendor, board, director, accountability, governing body, authority, projects, budget, records, engineering, repairs, construction, policy]
 author: Grand Lakes Community Portal
-preview: "Foundational Series&#x3a; Know Your Water District. This introductory article talks about the controlling authority within a water district. The board is the governing authority. Consultants are advisors; they are not the government, they do not run the government, they do not have any governmental authority."
+preview: "Foundational Series: Know Your Water District. This introductory article talks about the controlling authority within a water district. The board is the governing authority. Consultants are advisors; they are not the government, they do not run the government, they do not have any governmental authority."
 prvimg: "/assets/imgs/milkweed1.jpg"
 date: 2026-10-18
 ---
