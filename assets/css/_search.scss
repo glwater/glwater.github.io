@@ -1,0 +1,135 @@
+/* ==========================================================================
+   CUSTOM SEARCH CONTAINER EXTENSIONS
+   ========================================================================== */
+
+/* Container for search input styling */
+.search-container {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  margin: 5px 0 !important;
+  padding: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  
+  /* Modern CSS hiding: Keeps block structure clean but hides visually until toggled */
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  transition: all 0.25s ease-in-out;
+  
+  &.is-visible {
+    visibility: visible;
+    opacity: 1;
+    width: 210px;
+  }
+}
+
+/* Style configuration for the custom input box element */
+#search-input.search-input {
+  width: 100% !important;
+  min-width: 100% !important;
+  display: block !important;
+  padding: 10px 35px 10px 12px !important; /* Extra right padding so text doesn't hit the X button */
+  border: 1px solid #2563eb !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  color: #333333 !important;
+  font-size: 0.95rem !important;
+  height: 40px !important; /* Forces a consistent modern layout bar height */
+  box-sizing: border-box !important;
+}
+
+/* Clear Button */
+#clear-search-btn {
+  position: absolute !important;
+  right: 12px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important; /* Perfect vertical centering */
+  cursor: pointer !important;
+  color: #999 !important;
+  z-index: 5 !important;
+  background: transparent !important;
+  border: none !important;
+  font-size: 1rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  &:hover {
+    color: #333 !important;
+  }
+}
+
+/* Dropdown box for live results matching search strings */
+#search-results.results-container {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  background: #ffffff !important;
+  border: 1px solid #ddd !important;
+  border-radius: 4px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 5px 0 0 0 !important;
+  max-height: 250px !important;
+  overflow-y: auto !important;
+  z-index: 999999 !important;
+  display: block !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15) !important;
+  
+  &:empty {
+    border: none !important;
+    box-shadow: none !important;
+    display: none !important;
+}
+
+/* Format result items and clean up */
+li {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    background: transparent !important;
+    border: none !important; /* Removes structural grey borders */
+    
+    a {
+      display: block !important;
+      padding: 12px 15px !important;
+      text-decoration: none !important;
+      color: #333333 !important;
+      font-size: 0.9rem !important;
+      text-align: left !important;
+      border-bottom: 1px solid #f0f0f0 !important; /* Fine separator inside results only */
+      margin: 0 !important;
+
+      &:hover {
+        background-color: #f5f5f5 !important;
+        color: #000000 !important;
+      }
+    }
+
+    &:last-child a {
+      border-bottom: none !important; /* Removes trailing line from the last menu item */
+    }
+  }
+}
+
+#search-results {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  li {
+    display: block !important;
+    
+    a {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+  }
+}
+
+/* Hide the browser's default X icon */
+input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+input[type="search"]::-ms-clear { display: none; }

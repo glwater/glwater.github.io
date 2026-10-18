@@ -1,0 +1,268 @@
+---
+---
+/* Credit: Adapted from the matplotlib admonitions 
+ * at https://matplotlib.org/stable/gallery/color/colormap_reference.html 
+ */
+
+/* Layout */
+$header-height: 4rem;
+$header-article-height: calc(calc($header-height)*2/3);
+$sidebar-secondary: 17rem;
+$sidebar-font-size: 0.9rem;
+$sidebar-font-size-mobile: 1.1rem;
+$sidebar-header-font-size: 1.2rem;
+$sidebar-header-font-weight: 600;
+$font-size-base: 1rem;
+$font-size-h1: 2.625rem;
+$font-size-h2: 2.125rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
+$font-size-milli: 0.9rem;
+$font-size: $font-size-base;
+$font-size-icon: 1.5rem;
+$font-weight-heading: 600;
+$bq-font-weight-heading: $font-weight-heading;
+$font-weight-caption: 300;
+$font-family-base-system: -apple-system,"BlinkMacSystemFont","Segoe UI","Helvetica Neue","Arial",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$font-family-monospace-system: "SFMono-Regular","Menlo","Consolas","Monaco","Liberation Mono","Lucida Console",monospace;
+$font-family-base: $font-family-base-system;
+$font-family-heading: $font-family-base-system;
+$font-family-monospace: $font-family-monospace-system;
+$fa-solid: normal 900 1em/1 'Font Awesome 7 Free';
+
+$breadcrumb-divider: "";
+$icon-check-circle: "";
+$icon-info-circle: "";
+$icon-exclamation-triangle: "";
+$icon-exclamation-circle: "";
+$icon-times-circle: "";
+$icon-lightbulb: "";
+$icon-download: "";
+$icon-angle-left: "";
+$icon-angle-right: "";
+$icon-external-link: "";
+$icon-search-minus: "";
+$icon-github: "";
+$icon-gitlab: "";
+$icon-share: "";
+$icon-bell: "";
+$icon-pencil: "";
+$icon-bq-default: $icon-bell;
+$icon-bq-note: $icon-info-circle;
+$icon-bq-attention: $icon-exclamation-circle;
+$icon-bq-important: $icon-exclamation-circle;
+$icon-bq-caution: $icon-exclamation-triangle;
+$icon-bq-warning: $icon-exclamation-triangle;
+$icon-bq-danger: $icon-exclamation-triangle;
+$icon-bq-error: $icon-times-circle;
+$icon-bq-hint: $icon-lightbulb;
+$icon-bq-tip: $icon-lightbulb;
+$icon-bq-seealso: $icon-share;
+$icon-bq-todo: $icon-pencil;
+$icon-versionmodified-default: $icon-exclamation-circle;
+$icon-versionmodified-added: $icon-exclamation-circle;
+$icon-versionmodified-changed: $icon-exclamation-circle;
+$icon-versionmodified-deprecated: $icon-exclamation-circle;
+
+/* Colors */
+$c-primary: hsl(202, 76%, 28%);  /*  #0a7d91  */
+$c-primary-text: #fff;
+$c-primary-highlight: #086b7c;
+$c-primary-highlight-text: #fff;
+$c-text-base: #222832;   /* rgb(34, 40, 50); */
+$c-link: hsl(202, 76%, 25%);   /* #0f2e40 */
+$c-primary-bg: #d0ecf1;
+$c-secondary: #8045e5;
+$c-secondary-text: #fff;
+$c-secondary-highlight: #651ee0;
+$c-secondary-highlight-text: #fff;
+$c-secondary-bg: #e0c7ff;
+$c-light: #f3f4f5;
+$c-light-text: #14181e;
+$c-light-highlight: #c9cfd6;
+$c-light-highlight-text: #14181e;
+$c-muted: #29313d;
+$c-muted-text: #fff;
+$c-muted-highlight: #212936;
+$c-muted-highlight-text: #fff;
+$c-dark: #222832;
+$c-dark-text: #fff;
+$c-dark-highlight: #1b222c;
+$c-dark-highlight-text: #fff;
+$c-accent: #c132af;
+$c-accent-bg: #f8dff5;
+  
+$c-info: #276be9;
+$c-info-text: #fff;
+$c-info-highlight-text: #fff;
+$c-info-highlight: #1457d3;
+$c-info-bg: #dce7fc;
+
+$c-success: #00843f;
+$c-success-text: #fff;
+$c-success-highlight-text: #fff;
+$c-success-highlight: #007036;
+$c-success-bg: #d6ece1;
+  
+$c-warning: #f66a0a;
+$c-warning-text: #14181e;
+$c-warning-highlight-text: #14181e;
+$c-warning-highlight: #d25a07;
+$c-warning-bg: #f8e3d0;
+
+$c-attention: $c-warning;
+$c-attention-bg: $c-warning-bg;
+
+$c-danger: #d72d47;
+$c-danger-text: #fff;
+$c-danger-highlight: #bb2239;
+$c-danger-highlight-text: #fff;
+$c-danger-bg: #f9e1e4;
+
+$c-text-muted: #48566b;
+$c-shadow: rgba(0,0,0,.1);
+$c-border: #d1d5da;
+$c-border-muted: rgba(23,23,26,.2);
+$c-blockquote-notch: #677384;
+$c-inline-code: #912583;
+$c-inline-code-links: #085d6c;
+$c-target: #f3cf95;
+$c-table: #14181e;
+$c-table-row-hover-bg: #d5b4fd;
+$c-table-inner-border: #e5e7ea;
+$c-bg: #fff;
+$c-surface: #f3f4f5;
+$c-on-surface: #222832;
+$c-heading: $c-text-base;
+$c-link: $c-primary;
+$c-link-hover: $c-secondary;
+$c-table-outer-border: $c-surface;
+$c-table-heading-bg: $c-surface;
+$c-table-row-zebra-high-bg: $c-bg;
+$c-table-row-zebra-low-bg: $c-surface;
+
+/* Admonitions */
+$bq-border-radius: 0.25rem;
+$bq-left-border-width: 0.2rem;
+
+@mixin box-shadow { 
+  box-shadow: 0px 5px 10px #888; // 0px 5px 20px #888; 
+}
+
+.bq {
+  margin: 1.5625em 0.5em;
+  padding: 0 0.6rem 0.8rem;
+  overflow: hidden;
+  border-left: $bq-left-border-width solid $c-info;
+  border-radius: $bq-border-radius;
+  background-color: $c-bg; 
+  @include box-shadow;
+
+  // Last item should have no spacing since we'll control that w/ padding
+  *:last-child { margin-bottom: 0; }
+
+  // Indent iems after the title
+  p.bqtitle ~ * {
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+  }
+
+  // Lists need to have left margin so they don't spill into it
+  > ol,
+  > ul {
+    margin-left: 1em;
+  }
+
+  // Defaults for all admonitions
+  > bqtitle {
+    display: block;
+    margin: 0 -0.6rem;
+    padding: 0.4rem 0.6rem 0.4rem 2rem;
+    font-weight: $bq-font-weight-heading;
+    font-size: $sidebar-font-size-mobile;
+    position: relative;
+    background-color: $c-info-bg;
+    z-index: 1;  // use solid colors; want the title on top
+
+    &::after {
+      position: absolute;
+      left: 0.5rem;
+      width: 1rem;
+      height: 1rem;
+      color: $c-info;
+      font: $fa-solid;
+      line-height: inherit;
+      content: $icon-bq-default;
+      opacity: 1;
+    }
+
+    // Next element after title needs some extra upper-space
+    + * { margin-top: 0.4em; }
+  }
+}
+
+.bq.hint, .bq.tip {
+  border-color: $c-success;
+  > bqtitle {
+    background-color: $c-success-bg;
+    &::after {color: $c-success; content: $icon-bq-hint;}
+  }
+}
+
+.bq.seealso {
+  border-color: $c-success;
+  > bqtitle {
+    background-color: $c-success-bg;
+    &::after {color: $c-success; content: $icon-bq-seealso;}
+  }
+}
+
+.bq.todo {
+  border-color: $c-secondary;
+  > bqtitle {
+    background-color: $c-secondary-bg;
+    &::after {color: $c-secondary; content: $icon-bq-todo;}
+  }
+}
+
+.bq.note, .bq.info {
+  border-color: $c-info;
+  > bqtitle {
+    background-color: $c-info-bg;
+    &::after {color: $c-info; content: $icon-bq-note;}
+  }
+}
+
+.bq.attention, .bq.important {
+  border-color: $c-attention;
+  > bqtitle {
+    background-color: $c-attention-bg;
+    &::after {color: $c-attention; content: $icon-bq-attention;}
+  }
+}
+
+.bq.caution, .bq.warning {
+  border-color: $c-warning;
+  > bqtitle {
+    background-color: $c-warning-bg;
+    &::after {color: $c-warning; content: $icon-bq-warning;}
+  }
+}
+
+.bq.danger {
+  border-color: $c-danger;
+  > bqtitle {
+    background-color: $c-danger-bg;
+    &::after { color: $c-danger; content: $icon-bq-danger;}
+  }
+}
+
+.bq.error {
+  border-color: $c-danger;
+  > bqtitle {
+    background-color: $c-danger-bg;
+    &::after {color: $c-danger; content: $icon-bq-error;}
+  }
+}
