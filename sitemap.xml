@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  {% comment %} Loop through the standard pages and the collections {% endcomment %}
+  {% assign docs = site.pages | concat: site.content %}
+  {% assign docs = docs | concat: site.guides %}
+
+  {% for item in docs %}
+    <url>
+      <loc>{{ site.url }}{{ item.url | remove: 'index.html' }}</loc>
+    </url>
+  {% endfor %}
+
+</urlset>

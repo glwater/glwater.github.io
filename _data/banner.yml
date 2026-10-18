@@ -1,0 +1,19 @@
+# Change show_alert: true.
+# Update the type and messaging string text. Save the file. 
+# Jekyll will dynamically rebuild the layout views across every single index page automatically. 
+# When the event ends, just change show_alert: false. 
+# The banner cleanly vanishes from the layout templates instantly.
+# See the layout injection script in _includes/header (banner).html.
+
+# Set to 'true' to display the banner across the site, 'false' to hide it completely.
+show: true
+
+# Style class based on urgency: 
+# 'caution' (red), 'warning' (orange), 'intel' (purple), 'tip (green), 'info' (blue)
+type: "info"
+
+# For residents: clear, short, and actionable text
+message: "Introducing the New Grand Lakes Community Portal! We are officially going live to keep our 2,739 households informed! Documentation modules and articles are being developed on a daily basis. Check back as/when you can for more updates; news; information on governance, compliance, finances, infrastructure, projects, records; the boards governing the Grand Lakes water districts (MUD4, MUD1, MUD2, WCID) and the consultants serving said districts; and more!"
+
+# Action link pointing to the full content article
+link: " "                      # "/notices/202601_......../"

@@ -1,24 +1,109 @@
-# Site Settings
-title: "Grand Lakes Water Districts"
-description: "Dedicated to transparency and lawful governance the across Grand Lakes MUDs and WCID. We expose conflicts of interest, fight consultant legal abuse, and audit fishy budgets."
+title: "Grand Lakes Community Oversight Project"
+description: "Resource site for the Grand Lakes community and water districts (MUDs and WCID). Access essential community news, announcements, alerts, updates, guides to get to Know Your District, and information on boards, consultant acts and practices, governance, compliance, water, infrastructure, projects, finances, budgets, taxes, spending, and more."
 url: "https://glwater.github.io"
+baseurl: "" # Leave empty if hosting at the root domain glwater.github.io
+image: "/assets/imgs/GLsite.jpg" 
 
-# Plugins Configuration (This tells GitHub how to fetch the theme code!)
+# Analytics Tracking Configuration
+# Leave a field blank if you do not want to track data for that service
+ganalytics_id:                # "G-XXXXXXXXXX"
+msclarity_id: "yoorkwmh0j"    # "xxxxxxxxxx"
+
+# --- Twitter Specific Cards ---
+twitter:
+  username: "GLKatyCommunity"
+  card: "summary_large_image"
+  title: "Grand Lakes Community Portal"
+  description: "Dedicated to transparency and lawful governance across the four Grand Lakes water districts (MUDs & WCID). We inform taxpayers by tracking budgets, audits, spending, taxes, and public records."
+
+# Social/Community sharing image fallback
+social:
+  name: "Grand Lakes Community Portal"
+  links:
+    - https://www.facebook.com/GLKatyCommunity/
+    - https://x.com
+
+date_format: "%A, %B %d, %Y"
+markdown: kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  math_engine: mathjax
+  auto_ids: true
+
 plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
+  - jekyll-paginate-v2
+  - jekyll-seo-tag       # Add {% seo %} before </head>
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
 
-# Remote Theme Setup
-remote_theme: "mmistakes/minimal-mistakes@4.28.1"
-minimal_mistakes_skin: "default" 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
 
-# Site Defaults
+# Global Site Navigation Bar Links
+navigation_menu:
+  - title: "Home"
+    url: "/"
+  - title: "Know Your District"
+    url: "/guides/" 
+  - title: "Tag"
+    url: "/tags/"
+  - title: "Category"
+    url: "/categories/"
+  - title: "MUD 1"
+    url: "/mud1/"
+  - title: "MUD 2"
+    url: "/mud2/"
+  - title: "MUD 4"
+    url: "/mud4/"
+  - title: "WCID"
+    url: "/wcid/"
+  - title: "Schwartz, Page & Harding"
+    url: "/sph/" 
+
+collections:
+  content:
+    output: true
+  guides:
+    output: true
+
 defaults:
+  # _pages
   - scope:
-      path: ""
-      type: "posts"
+      path: '_content'
     values:
-      layout: "single"      
-      author_profile: true  
-      sidebar:
-        nav: "docs-sidebar" 
+      layout: base
+      share: true
+      related: true
+      read_time: false
+      comments: false
+  - scope:
+      path: '_guides'
+    values:
+      layout: base
+      share: true
+      related: true
+      read_time: false
+      comments: false
+
+# Pagination Settings
+pagination:
+  enabled: true
+
+# Archive page configurations
+tag_archive:
+  type: liquid
+  path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+  
+# show_excerpts: true
+excerpt_separator: ""
+
+sass:
+  style: compressed
+

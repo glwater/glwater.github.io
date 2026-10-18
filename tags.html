@@ -1,0 +1,37 @@
+---
+layout: group
+title: "Articles by Tag"
+permalink: /tags/
+---
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="https://schema.org">
+    <div class="page__inner-wrap">
+      <section style="color:#4b5563" class="page__content" itemprop="text">
+        
+        {% comment %} Collect all tags from the collection {% endcomment %}
+        {% assign articles = site.content | concat: site.guides %}
+        {% assign tags = articles | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+
+        <!-- Tag Cloud Navigation Links -->
+        <p class="page__taxonomy">
+          {% for tag in tags %}
+            <a href="#{{ tag | slugify }}" class="page__taxonomy-item">{{ tag }}</a>
+          {% endfor %}
+        </p>
+
+        <!-- Display articles grouped by Tag -->
+        {% for tag in tags %}
+          <h4 id="{{ tag | slugify }}"><i class="fa fa-fw fa-tag"></i> {{ tag }}</h4>
+          <ul>
+            {% for item in articles %}
+              {% if item.tags contains tag %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endfor %}
+
+      </section>
+    </div>
+  </article>
+</div>

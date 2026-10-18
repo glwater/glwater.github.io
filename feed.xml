@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://w3.org">
+
+  <channel>
+    <title>Grand Lakes Community and Water Districts Portal</title>
+    <description>Resource site for the Grand Lakes community and water districts (MUDs and WCID).</description>
+    <link>{{ site.url }}/</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+
+    {% assign articles = site.content | concat: site.guides %}
+    {% assign sorted_articles = articles | sort: 'date' | reverse %}
+
+    {% for item in sorted_articles %}
+    <item>
+      <title>{{ item.title | xml_escape }}</title>
+      
+      <description>
+      {% if item.preview %}{{ item.preview | strip_html | xml_escape }}{% else %}{{ item.excerpt | strip_html | xml_escape }}{% endif %}
+      </description>
+      
+      <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+      <link>{{ site.url }}{{ item.url | remove: 'index.html' }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ item.url | remove: 'index.html' }}</guid>
+      
+      {% if item.prvimg %}
+        {% assign img_ext = item.prvimg | split: '.' | last | downcase %}
+        <enclosure url="{{ site.url }}{{ item.prvimg }}" 
+                  type="{% if img_ext == 'png' %}image/png{% elsif img_ext == 'svg' %}image/svg+xml{% elsif img_ext == 'webp' %}image/webp{% else %}image/jpeg{% endif %}" />
+      {% endif %}
+      
+    </item>
+    {% endfor %}
+    
+  </channel>
+</rss>

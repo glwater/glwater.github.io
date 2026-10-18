@@ -1,0 +1,38 @@
+---
+layout: group
+title: "Articles by Category"
+permalink: /categories/
+---
+
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="https://schema.org">
+    <div class="page__inner-wrap">
+      <section style="color:#4b5563" class="page__content" itemprop="text">
+        
+        {% comment %} Collect all categories from the collection {% endcomment %}
+        {% assign articles = site.content | concat: site.guides %}
+        {% assign categories = articles | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+
+        <!-- Category Cloud Navigation Links -->
+        <p class="page__taxonomy">
+          {% for category in categories %}
+            <a href="#{{ category | slugify }}" class="page__taxonomy-item">{{ category }}</a>
+          {% endfor %}
+        </p>
+
+        <!-- Display articles grouped by Category -->
+        {% for category in categories %}
+          <h4 id="{{ category | slugify }}"><i class="fa fa-fw fa-folder-open"></i> {{ category }}</h4>
+          <ul>
+            {% for item in articles %}
+              {% if item.categories contains category %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endfor %}
+
+      </section>
+    </div>
+  </article>
+</div>

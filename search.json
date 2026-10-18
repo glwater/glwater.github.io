@@ -1,0 +1,23 @@
+---
+layout: none
+permalink: /search.json
+---
+[
+  {% assign valid_docs = "" | split: "," %}
+  {% assign all_docs = site.content | concat: site.guides %}
+  
+  {% for doc in all_docs %}
+    {% if doc.title %}
+      {% assign valid_docs = valid_docs | push: doc %}
+    {% endif %}
+  {% endfor %}
+
+  {% for doc in valid_docs %}
+    {
+      "title"    : {{ doc.title | jsonify }},
+      "category" : {{ doc.categories | jsonify }},
+      "url"      : {{ doc.url | relative_url | jsonify }},
+      "date"     : {{ doc.date | date: "%B %d, %Y" | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
