@@ -1,0 +1,24 @@
+<div class="archive-grid">
+  {% assign articles = site.content | concat: site.guides %}
+  {% for item in articles %}
+    {% if item.tags contains page.target_tag %}
+      <div class="archive-card">
+        <a href="{{ item.url | relative_url }}">
+          <div class="teaser-wrapper">
+            {% if item.preview %}
+              <img src="{{ item.prvimg | relative_url }}" alt="{{ item.title }}" class="archive-teaser">
+            {% else %}
+              <img src="{{ '/assets/imgs/teaser.jpg' | relative_url }}" alt="Default fallback" class="archive-teaser fallback">
+            {% endif %}
+          </div>
+          
+          <div class="card-wrapper">
+          <h4 class="card-label">{{ item.title }}</h4>
+          <span class="card-excerpt">{{ item.date | date: "%b %-d, %Y" }} ~ {{ item.preview }}</span>
+          <!-- <a href="{{ item.url | relative_url }}" class="card-readmore">Read More →</a> -->
+          </div>
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

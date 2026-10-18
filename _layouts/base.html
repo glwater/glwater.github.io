@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include head.html %} 
+    {% include analytics.html %}
+  </head>
+
+<body>
+
+  <header>
+    {% include header.html %}
+  </header>
+
+  <div class="main-wrapper">
+    <!-- sidebar.html with an <aside> or class="sidebar" tag. -->
+    {% include sidebar.html %}
+
+  <main>
+    {{- content -}}
+  </main>
+    
+  </div>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+
+  <!-- Miscellaneous scripts, search -->
+  {%- include mermaid.html -%}
+  {%- include math.html -%}
+  {%- include searchscript.html -%}
+
+</body>
+</html>

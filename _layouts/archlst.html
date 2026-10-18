@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+{% if paginator.page == 1 %}
+  <div style="display: flex; align-items: center; margin-left: 16px; margin-top: 20px;">
+    <a href="{{ '/' | relative_url }}">▽</a>
+    <a href="{{ '/sortflip/' | relative_url }}" style="margin-right: 8px;">△</a>
+    <h2 style="margin: 0;">{{ site.title }}</h2>
+  </div>
+{% endif %}
+
+<ul class="document-list" 
+    style="list-style-type: none; padding-left: 20px; padding-top: 20px;">
+
+{% for item in paginator.posts %}
+<li style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; margin-right: 100px;">
+
+<div style="display: flex;">   
+{% if item.preview %}
+ <img src="{{ item.prvimg | relative_url }}" alt="{{ item.title }}" 
+      style="width: 100px; align-self: center; margin-right: 16px; border-radius: 4px;">
+{% endif %}
+
+<div>
+<h4><a href="{{ item.url | relative_url }}" 
+   style="text-decoration: none; ">{{ item.title }}</a></h4>
+<span style="font-size: 0.85rem; color: #4b5563;">
+             {{ item.date | date: "%b %-d, %Y" }} ~ {{ item.preview }}</span>
+</div>
+</div>
+
+<!--
+<small style="color: #4b5563; font-size: 80%;">Categories: {{ item.categories }} | Tags: {{ item.tags | join: ", " }}</small>
+-->
+
+</li>
+{% endfor %}
+</ul>
+
+{% include paginate.html %}

@@ -1,0 +1,20 @@
+<!-- _includes/mermaid.html -->
+
+{% if page.mermaid %}
+  <script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+
+  // Look for Jekyll-generated markdown code blocks and convert them
+  document.querySelectorAll('pre > code.language-mermaid').forEach((codeBlock) => {
+    const preElement = codeBlock.parentElement;
+
+    const container = document.createElement('pre');
+
+    container.className = 'mermaid';
+    container.textContent = codeBlock.textContent;
+    preElement.replaceWith(container);
+
+  });
+  </script>
+{% endif %}

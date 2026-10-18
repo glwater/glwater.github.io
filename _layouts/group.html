@@ -1,0 +1,12 @@
+---
+layout: base
+---
+
+<div class="article__wrapper">
+<div class="page__content" itemprop="text">
+  <h2>{{ page.title | default: site.title | split: ' - page' | first }}</h2>
+  <br />
+  {{- content -}}
+</div>
+<br />
+</div>

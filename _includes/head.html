@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+
+{% seo %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://googleapis.com" rel="stylesheet">
+
+<!-- Theme's existing CSS and JS links -->
+<link rel="stylesheet" href="{{ '/assets/css/glwd.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/styling.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
+
+<!-- Link to FontAwesome for the sidebar icons -->
+<link rel="preload" href="https://use.fontawesome.com/releases/v7.3.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.3.1/css/all.css"></noscript>
+<link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.svg">
+
+<!-- Open Graph Protocol Core Tags -->
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="article" />
+
+{% if page.url == '/' or page.url == '/guides/' or page.url == '/content/' %}
+  <!-- Main Landing Index Pages -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="{{ '/assets/imgs/teaser.jpg' | absolute_url }}" />
+{% else %}
+  <!-- Guide or Article Content Pages -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.preview | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <!-- Use the custom preview image variable from the file's Front Matter fallback -->
+  <meta property="og:image" content="{{ page.prvimg | default: '/assets/imgs/teaser.jpg' | absolute_url }}" />
+{% endif %}
+
+<!-- Twitter Card Fallback Data -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+<meta name="twitter:description" content="{{ page.preview | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+<meta name="twitter:image" content="{{ page.prvimg | default: '/assets/imgs/teaser.jpg' | absolute_url }}" />

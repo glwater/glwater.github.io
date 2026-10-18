@@ -1,0 +1,62 @@
+<!-- Sidebar Search Engine -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var searchInput = document.getElementById('search-input');
+    var resultsContainer = document.getElementById('search-results');
+    var clearBtn = document.getElementById('clear-search-btn');
+    var searchData = [];
+
+    // Download Local Database Object
+    fetch('/search.json')
+      .then(function(response) { return response.json(); })
+      .then(function(data) { searchData = data; })
+      .catch(function(err) { console.error("Database failed to load:", err); });
+
+    // Live Typing Filter Engine
+    if (searchInput && resultsContainer) {
+      searchInput.addEventListener('input', function() {
+        var query = searchInput.value.toLowerCase().trim();
+        resultsContainer.innerHTML = ''; // Wipe previous view
+
+        if (query.length < 2) return; // Wait until 2 letters are typed
+
+        // Scan titles and categories for matches
+        var matches = searchData.filter(function(item) {
+          var titleMatch = item.title && item.title.toLowerCase().includes(query);
+          var categoryMatch = false;
+          if (Array.isArray(item.category)) {
+            categoryMatch = item.category.some(function(cat) {
+              return cat && cat.toLowerCase().includes(query);
+            });
+          }
+          return titleMatch || categoryMatch;
+        });
+
+        // Generate the dropdown list elements dynamically
+        if (matches.length > 0) {
+          matches.slice(0, 10).forEach(function(item) {
+            var li = document.createElement('li');
+            var a = document.createElement('a');
+            a.href = item.url;
+            a.textContent = item.title;
+            li.appendChild(a);
+            resultsContainer.appendChild(li);
+          });
+        } else {
+          var noResultLi = document.createElement('li');
+          noResultLi.innerHTML = '<a href="#">No results found</a>';
+          resultsContainer.appendChild(noResultLi);
+        }
+      });
+    }
+
+    // Clear Button Click Routine
+    if (clearBtn && searchInput && resultsContainer) {
+      clearBtn.addEventListener('click', function() {
+        searchInput.value = '';             // Erases the written phrase
+        resultsContainer.innerHTML = '';    // Drops the visual dropdown panel
+        searchInput.focus();                // Puts the active typing cursor back
+      });
+    }
+  });
+</script>

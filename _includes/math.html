@@ -1,0 +1,118 @@
+{% if page.mathjax %}
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-mml-chtml.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+     messageStyle: "none",
+     jax: ["input/TeX", "output/HTML-CSS"],
+     extensions: [
+        "tex2jax.js",
+        "MathMenu.js",
+        "MathZoom.js",
+        "AssistiveMML.js",
+        "a11y/accessibility-menu.js"
+      ],
+      TeX: {
+        extensions: [
+          "AMSmath.js",
+          "AMSsymbols.js",
+          "noErrors.js",
+          "noUndefined.js"
+        ],
+        equationNumbers: { autoNumber: "AMS" },
+        Macros: {
+          bm: ["{\\boldsymbol #1}",1],
+        }
+      },
+      "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        scale: 80
+      }
+  });
+</script>
+{% endif %}
+
+
+<!-- KaTeX -->
+{% if jekyll.environment == "production" %}
+  <!-- Live Site: Fast CDN delivery for your public visitors -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
+{% else %}
+  <!-- Local Testing: Uses the cloned scripts -->
+  <link rel="stylesheet" href="/assets/css/katex.min.css">
+  <script defer src="/assets/js/katex.min.js"></script>
+{% endif %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  function cleanAndRenderDynamicMath() {
+    if (typeof window.katex === 'undefined') {
+      setTimeout(cleanAndRenderDynamicMath, 30);
+      return;
+    }
+
+    const mathBlocks = document.querySelectorAll('code.language-math');
+    
+    mathBlocks.forEach((block) => {
+      let rawTex = block.textContent.trim();
+      if (!rawTex) return;
+
+      // --- SAFE TARGETED CLEANUP FOR JSDELIVR TYPOS ---
+      // Fixes '\f\relax{x}' into standard 'f(x)'
+      rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
+      // Fixes '\f\hat' into standard '\hat'
+      rawTex = rawTex.replace(/\\f\\hat/g, '\\hat');
+      // Fixes any loose '\f ' prefixes followed by a space or x, without touching \frac
+      rawTex = rawTex.replace(/\\f\s*([xX])/g, 'f$1');
+      // ------------------------------------------------
+
+      // Automatically strip legacy notation brackets if present inside the markdown block
+      if (rawTex.startsWith('\\(') && rawTex.endsWith('\\)')) {
+        rawTex = rawTex.substring(2, rawTex.length - 2).trim();
+      }
+      if (rawTex.startsWith('\\[') && rawTex.endsWith('\\]')) {
+        rawTex = rawTex.substring(2, rawTex.length - 2).trim();
+      }
+
+      const container = document.createElement('div');
+      container.className = "rendered-markdown-math";
+      container.style.textAlign = "center";
+      container.style.margin = "1.8rem 0";
+      container.style.width = "100%";
+      container.style.overflowX = "auto";
+
+      try {
+        window.katex.render(rawTex, container, {
+          displayMode: true,
+          throwOnError: false
+        });
+
+        let elementToReplace = block;
+        while (elementToReplace.parentElement && 
+              (elementToReplace.parentElement.tagName === 'PRE' || 
+               elementToReplace.parentElement.classList.contains('highlight') || 
+               elementToReplace.parentElement.classList.contains('language-math') ||
+               elementToReplace.parentElement.classList.contains('highlighter-rouge'))) {
+          elementToReplace = elementToReplace.parentElement;
+        }
+
+        elementToReplace.parentNode.replaceChild(container, elementToReplace);
+      } catch (err) {
+        console.error("Local Math Parser Error: ", err);
+      }
+    });
+  }
+
+  cleanAndRenderDynamicMath();
+});
+</script>

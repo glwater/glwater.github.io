@@ -1,0 +1,77 @@
+<aside>
+
+<div id="search-box" class="search-container">
+  <input type="text" id="search-input" class="search-input" placeholder="Search site..." autocomplete="off">
+  <i class="fa-solid fa-circle-xmark clear-search-btn" id="clear-search-btn"></i>
+  <ul id="search-results" class="results-container"></ul>
+</div>
+
+<hr class="hzl">
+
+<div class="sidebar-block" style="text-align: left;">
+<div><center class="st1f">I N D E X</center>
+  <center>{% for item in site.navigation_menu %}
+    {% comment %} Strip leading/trailing slashes to ensure accurate URL comparison {% endcomment %}
+    {% assign cleaned_page_url = page.url | append: "/" | replace: "//", "/" %}
+    {% assign cleaned_item_url = item.url | append: "/" | replace: "//", "/" %}
+    {% if page.url == item.url or page.target_tag == item.title %}
+      {% assign btnstate = "active" %}
+    {% else %}
+      {% assign btnstate = "" %}
+    {% endif %}
+
+    <a href="{{ item.url | relative_url }}" class="filter {{ btnstate }}">
+      {{ item.title }}
+    </a>
+  {% endfor %}</center>
+
+<!--
+  <button class="filter"><a href="/">Home</a></button>
+  <button class="filter"><a href="/guides/">Know Your District</a></button><br>
+  <button class="filter"><a href="/tags/">Tag</a></button>
+  <button class="filter"><a href="/categories/">Category</a></button>
+  <button class="filter"><a href="/mud4/">MUD4</a></button><br>  
+  <button class="filter"><a href="/mud1/">MUD1</a></button>
+  <button class="filter"><a href="/mud2/">MUD2</a></button>
+  <button class="filter"><a href="/wcid/">WCID</a></button><br>
+  <button class="filter"><a href="/sph/">Schwartz, Page & Harding</a></button>
+-->
+
+</div>
+</div>
+
+<hr class="hzl">
+
+<div class="sidebar-text">
+<div class="st1f"><center>Our Mission</center></div>
+<div class="tj">&#10077;As citizens of the Grand Lakes community in Katy, Fort Bend County, Texas, we are adamant about preventing the four <strong>Water Districts (MUD 4, MUD 1, MUD 2, and WCID)</strong> serving our community from prioritizing private profit over public welfare. Through community monitoring, we advocate for, and demand, Public Interest Safeguards: Absolute Integrity from our elected officials and all consultants serving our community, Impeccable Representation, Lawful Governance, Responsible Spending, Transparent Contracting, Vendor Accountability, and Rigorous State Oversight.&#10078;</div>
+</div>
+
+<hr class="hzl">
+
+<div class="sidebar-block">
+<div class="sidebar-text">
+  <i class="fa-solid fa-location-dot"></i>
+  <span>Katy, Fort Bend County, Texas</span>
+</div>
+
+<div class="info-item">
+  <i class="fa-solid fa-envelope"></i>
+  <a href="mailto:gl.community@outlook.com">Email</a>
+</div>
+<div class="info-item">
+  <i class="fa-solid fa-globe"></i>
+  <a href="https://glwater.github.io/" target="_blank">Website</a><br><br>
+</div>
+<div class="info-item"> 
+  <i class="fa-brands fa-facebook"></i>
+  <a href="https://www.facebook.com/GLKatyCommunity/" target="_blank">Facebook</a><br><br>
+</div>
+<div class="info-item"> 
+  <i class="fa-brands fa-x-twitter"></i>
+  <a href="https://x.com/GLKatyCommunity" target="_blank">X</a>
+</div>
+
+<hr class="hzl">
+
+</aside>

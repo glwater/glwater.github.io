@@ -1,0 +1,54 @@
+<section class="page__share">
+    <span class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on: " }}</span>
+
+<a href="https://x.com/post?text={{ base_path }}{{ page.url }}" 
+   class="btn btn--x" 
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X">
+  <i class="fa-brands fa-x-twitter fa-lg" aria-hidden="true"></i>&nbsp;
+</a>
+
+<a href="https://facebook.com/sharer/sharer.php?u={{ base_path }}{{ page.url }}" 
+   class="btn btn--facebook" 
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook">
+  <i class="fa-brands fa-facebook fa-lg" aria-hidden="true"></i>&nbsp;
+</a>
+
+<a href="https://linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" 
+   class="btn btn--linkedin"  
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn">
+  <i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;
+</a>
+
+<a href="https://reddit.com/r/texas/submit?url={{ base_path }}{{ page.url }}&title={{ page.title | url_encode }}"
+   class="btn btn--reddit" 
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Reddit"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Reddit">
+  <i class="fa-brands fa-reddit fa-lg" aria-hidden="true"></i>&nbsp;
+</a>
+
+<a href="https://bsky.app/intent/compose?text={{ base_path }}{{ page.url }}&title={{ page.title | url_encode }}"
+   class="btn btn--bluesky" 
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Bluesky"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Bluesky">
+  <i class="fa-brands fa-bluesky fa-lg" aria-hidden="true"></i>&nbsp;
+</a>
+
+<a href="https://whatsapp.com{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }}%20District%20Updates%20-%20{{ base_path }}{{ page.url }}" 
+   class="btn btn--whatsapp" 
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} WhatsApp"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} WhatsApp"
+   target="_blank" rel="noopener noreferrer">
+  <i class="fa-brands fa-whatsapp fa-lg" aria-hidden="true"></i>&nbsp;
+</a>
+
+<a href="https://www.threads.com/shareArticle?url={{ base_path }}{{ page.url }}" 
+   class="btn btn--threads" 
+   title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Threads"
+   aria-label="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Threads">
+  <i class="fa-brands fa-threads fa-lg" aria-hidden="true"></i>
+</a>
+
+</section>

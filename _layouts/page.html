@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+<div class="article__wrapper">
+
+<p class="page__meta" style="font-size: 85%; color: #357; margin: 0 2px;">
+  <i class="far fa-calendar-alt" aria-hidden="true"></i> 
+  {{ page.date | date: site.date_format }}
+  {% if page.last_modified and page.last_modified != page.date %}
+    | Updated: {{ page.last_modified | date: site.date_format }}
+  {% endif %}
+</p>
+
+<div class="page__content" itemprop="text">
+  <h3>{{ page.title }}</h3>
+  <br />
+  {{- content -}}
+</div>
+
+<div class="hzl" style="margin: 10px 0;"></div>
+<div>{% include share.html %}</div>
+<div class="page__taxonomy" style="margin: 10px 0;">
+  {% include tags.html %}
+  {% include categories.html %}
+  <a href="/"><strong>≪ Home</strong></a> 
+</div>
+<p class="hzl"></p>
+</div>

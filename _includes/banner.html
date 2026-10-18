@@ -1,0 +1,25 @@
+<!-- Banner -->
+<!-- Include in _includes/header.html -->
+<!-- Settings in _data/banner.yml -->
+
+{% if site.data.banner.show == true %}
+<div class="banner" role="alert">
+  <div class="banner-content-wrapper">
+    <span class="banner-icon">
+      {% if site.data.banner.type == 'caution' %}🚨
+      {% elsif site.data.banner.type == 'warning' %}⚠️
+      {% elsif site.data.banner.type == 'intel' %}<img src=/assets/imgs/msg!w.svg>
+      {% elsif site.data.banner.type == 'tip' %}💡
+      {% elsif site.data.banner.type == 'info' %}<img src=/assets/imgs/circiw.svg>
+      {% endif %}
+    </span>
+    <p class="banner-text">
+      <strong>{{ site.data.banner.type | upcase }}:</strong> {{ site.data.banner.message }}
+      {% if site.data.banner.link %}
+        <!-- Read Full Details & Updates -->
+        <a href="{{ site.data.banner.link | relative_url }}" class="banner-action-btn">Explore the site →</a>
+      {% endif %}
+    </p>
+  </div>
+</div>
+{% endif %}

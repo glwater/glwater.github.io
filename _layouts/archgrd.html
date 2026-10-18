@@ -1,0 +1,27 @@
+---
+layout: group
+---
+
+<div class="archive-grid">
+  {% for item in paginator.posts %}
+    <div class="archive-card">
+      <a href="{{ item.url | relative_url }}">
+        <div class="teaser-wrapper">
+          {% if item.prvimg %}
+          <img src="{{ item.prvimg | relative_url }}" alt="{{ item.title }}" class="archive-teaser">
+          {% else %}
+          <img src="{{ '/assets/imgs/teaser.jpg' | relative_url }}" alt="Default fallback" class="archive-teaser">
+          {% endif %}
+        </div>
+        
+        <div class="card-wrapper">
+          <h4 class="card-label"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h4>
+          <span class="card-excerpt">{{ item.date | date: "%b %-d, %Y" }} ~ {{ item.preview }}</span>
+          <a href="{{ item.url | relative_url }}" class="card-readmore">Read More →</a>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+{% include paginate.html %}
