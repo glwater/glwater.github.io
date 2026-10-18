@@ -31,7 +31,7 @@ kramdown:
   auto_ids: true
 
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-seo-tag       # Add {% seo %} before </head>
   - jekyll-feed
   - jekyll-sitemap
