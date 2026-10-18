@@ -23,8 +23,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '4.0' # Adjust to match your local version if needed
-          bundler-cache: true # Runs 'bundle install' automatically
+          ruby-version: '4.0'
+          bundler-cache: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
