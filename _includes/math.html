@@ -44,11 +44,11 @@
 
 <!-- KaTeX -->
 {% if jekyll.environment == "production" %}
-  <!-- Live Site: Fast CDN delivery for your public visitors -->
+  <!-- Live: Fast CDN delivery for public visitors -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
 {% else %}
-  <!-- Local Testing: Uses the cloned scripts -->
+  <!-- Local: Uses the cloned scripts -->
   <link rel="stylesheet" href="/assets/css/katex.min.css">
   <script defer src="/assets/js/katex.min.js"></script>
 {% endif %}
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let rawTex = block.textContent.trim();
       if (!rawTex) return;
 
-      // --- SAFE TARGETED CLEANUP FOR JSDELIVR TYPOS ---
+      // ----- CLEANUP FOR JSDELIVR TYPOS -----
       // Fixes '\f\relax{x}' into standard 'f(x)'
       rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
       // Fixes '\f\hat' into standard '\hat'
