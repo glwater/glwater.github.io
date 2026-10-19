@@ -1029,7 +1029,7 @@
   <div class="footer-line"> Credits:  
   <a href="https://github.com/" rel="nofollow">GitHub,</a> 
   <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> | 
-  📅 Site Last Updated: 2026-10-18.</div>
+  📅 Site Last Updated: 2026-10-19.</div>
 </footer>
 
   </footer>
@@ -1042,7 +1042,7 @@
 
 <!-- KaTeX -->
 
-  <!-- Live Site: Fast CDN delivery for your public visitors -->
+  <!-- Live: Fast CDN delivery for public visitors -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
 
@@ -1061,7 +1061,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let rawTex = block.textContent.trim();
       if (!rawTex) return;
 
-      // --- SAFE TARGETED CLEANUP FOR JSDELIVR TYPOS ---
+      // ----- CLEANUP FOR JSDELIVR TYPOS -----
       // Fixes '\f\relax{x}' into standard 'f(x)'
       rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
       // Fixes '\f\hat' into standard '\hat'
