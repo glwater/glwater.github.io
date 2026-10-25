@@ -15,8 +15,7 @@ Grand Lakes MUD No. 2 ended FY2025 with $5.96 million in reserves against $3.98 
 > 
 **The district needs money, therefore rates must rise—or taxes must rise—or bonds must be issued.**
 
-![](/assets/docs/res.png)
-
+![](/assets/docs/res.png)  
 Sure enough, with greed and an absent and indifferent board, the MUD attorney, [Christopher Todd Skinner](https://www.sphllp.com/_chris_skinner) of [Schwartz, Page & Harding](https://www.sphllp.com/), pursued all three avenues at once.  
 - **Tax-rate hike:** On top of the increased property valuation, Grand Lakes MUD2 has already increased the tax rate by the 3.5% maximum allowable increase without an election, from 0.128% (2025) to 0.130466% (2026). Passed and adopted on September 21, 2026, the Order on Levying Taxes is available as part of the [Evidentiary Documents](#evidentiary-documents).  
 - **Water/wastewater rates:** A lot seems to have been ongoing in the background among the MUD attorney, MUD bookkeeper, and MUD operator to increase the water/wastewater rates. Given the statements officially available from the September 21 and October 19 board meetings, it is assumed that an amended rate order will be announced once the October 19, 2026, board meeting minutes are approved in the November 16, 2026 meeting.
