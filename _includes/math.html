@@ -1,54 +1,31 @@
 {% if page.mathjax %}
+<!-- MathJax Configuration and Loader (v4) -->
 <script>
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
-      processEscapes: true
+      processEscapes: true,
+      packages: {'[+]': ['ams', 'noundefined']}
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process'
+    },
+    loader: {
+      load: ['[tex]/ams', '[tex]/noundefined']
     }
   };
 </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-mml-chtml.js"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-     messageStyle: "none",
-     jax: ["input/TeX", "output/HTML-CSS"],
-     extensions: [
-        "tex2jax.js",
-        "MathMenu.js",
-        "MathZoom.js",
-        "AssistiveMML.js",
-        "a11y/accessibility-menu.js"
-      ],
-      TeX: {
-        extensions: [
-          "AMSmath.js",
-          "AMSsymbols.js",
-          "noErrors.js",
-          "noUndefined.js"
-        ],
-        equationNumbers: { autoNumber: "AMS" },
-        Macros: {
-          bm: ["{\\boldsymbol #1}",1],
-        }
-      },
-      "HTML-CSS": {
-        preferredFont: "TeX",
-        availableFonts: ["STIX","TeX"],
-        scale: 80
-      }
-  });
-</script>
+<script async src="https://jsdelivr.net"></script>
 {% endif %}
 
-
-<!-- KaTeX -->
+<!-- KaTeX Configuration (Production CDN vs. Local Assets) -->
 {% if jekyll.environment == "production" %}
   <!-- Live: Fast CDN delivery for public visitors -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://jsdelivr.net" crossorigin="anonymous">
+  <script defer src="https://jsdelivr.net" crossorigin="anonymous"></script>
 {% else %}
-  <!-- Local: Uses the cloned scripts -->
+  <!-- Local: Uses the cloned assets -->
   <link rel="stylesheet" href="/assets/css/katex.min.css">
   <script defer src="/assets/js/katex.min.js"></script>
 {% endif %}
@@ -56,6 +33,7 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   function cleanAndRenderDynamicMath() {
+    // Gracefully wait until defer-loaded KaTeX library is fully ready on the window
     if (typeof window.katex === 'undefined') {
       setTimeout(cleanAndRenderDynamicMath, 30);
       return;
