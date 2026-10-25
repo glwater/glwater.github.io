@@ -117,9 +117,11 @@ There you have it...
 </div>
 
 ### Accuracy Check
-> 
-A simple and rough accuracy check shows that the interest amount fits the amortization model.  <br><br>
-P = $27,930,000; r = 4.5% / 12 = 0.00375; n = 25 years x 12 = 300 months.  <br><br>
+<blockquote markdown="1">
+A simple and rough accuracy check shows that the interest amount fits the amortization model.  
+
+P = $27,930,000; r = 4.5% / 12 = 0.00375; n = 25 years x 12 = 300 months.  
+
 For monthly payments due at the end of the period:  
 • M = $155,244 per month.  
 • Out-of-pocket Cost = M x n = $46,573,200.  
@@ -134,3 +136,4 @@ For monthly payments due at the beginning of the period:
 ```math
 M = \frac{P \cdot r \cdot (1+r)^{n-1}}{(1+r)^n-1}
 ```
+</blockquote>
