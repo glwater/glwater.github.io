@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Grand Lakes: A Community Asking Who Is Accountable for Its Water Districts<br>
-        Part 5: Questions concerning agendas, minutes, and governmental authority"
+        Part 6: Questions concerning agendas, minutes, and governmental authority"
 tags: [Grand Lakes, Katy, Texas, transparency, Open Meetings Act, Public Information Act, Schwartz Page & Harding, minutes, agenda]
 categories: [Governance, Compliance, Oversight]
 preview: "Water-district board agendas, minutes, exhibits, resolutions, orders, contracts, and supporting documentation should be complete, accurate, timely, accessible, and independently verifiable. Instead, the Schwartz, Page & Harding attorneys unilaterally add items to the agendas without authorization from the preceding meeting; publish minutes that do not accurately document what occurred; and publish minutes without the referenced exhibits, making said minutes absolutely useless."
