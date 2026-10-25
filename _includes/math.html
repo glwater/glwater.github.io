@@ -16,14 +16,14 @@
     }
   };
 </script>
-<script async src="https://jsdelivr.net"></script>
+<script async src="https://cdn.jsdelivr.net"></script>
 {% endif %}
 
 <!-- KaTeX Configuration (Production CDN vs. Local Assets) -->
 {% if jekyll.environment == "production" %}
   <!-- Live: Fast CDN delivery for public visitors -->
-  <link rel="stylesheet" href="https://jsdelivr.net" crossorigin="anonymous">
-  <script defer src="https://jsdelivr.net" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
 {% else %}
   <!-- Local: Uses the cloned assets -->
   <link rel="stylesheet" href="/assets/css/katex.min.css">
