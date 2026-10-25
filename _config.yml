@@ -23,6 +23,7 @@ social:
     - https://www.facebook.com/GLKatyCommunity/
     - https://x.com
 
+timezone: America/Chicago
 date_format: "%A, %B %d, %Y"
 markdown: kramdown
 kramdown:
