@@ -124,16 +124,20 @@ P = \$27,930,000; r = 4.5% / 12 = 0.00375; n = 25 years x 12 = 300 months.
 
 For monthly payments due at the end of the period:  
 • M = \$155,244 per month.  
-• Out-of-pocket Cost = M x n = \$46,573,200.  
+• Out\-of\-pocket Cost = M x n = \$46,573,200.  
 • Total Interest Paid = (M x n) - P = \$18,643,200.
-```math
-M = \frac{P \cdot r \cdot (1+r)^n}{(1+r)^n-1}
+
+```math 
+  M = \frac{P \cdot r \cdot (1+r)^n}{(1+r)^n-1} 
 ```
+
 For monthly payments due at the beginning of the period:  
 • M = \$154,664 per month.  
-• Out-of-pocket Cost = M x n = \$46,399,206.  
+• Out\-of\-pocket Cost = M x n = \$46,399,206.  
 • Total Interest Paid = (M x n) - P = \$18,469,206.
-```math
-M = \frac{P \cdot r \cdot (1+r)^{n-1}}{(1+r)^n-1}
+
+```math 
+  M = \frac{P \cdot r \cdot (1+r)^{n-1}}{(1+r)^n-1} 
 ```
+
 </blockquote>
