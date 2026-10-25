@@ -4,7 +4,7 @@ title: "Grand Lakes: A Community Asking Who Is Accountable for Its Water Distric
         Part 4: Financial controls deserve independent examination"
 tags: [Grand Lakes, Katy, Texas, board, director, consultant, audit, minutes, Forvis Mazars, Schwartz Page & Harding, fiduciary, outsourcing, MUD2]
 categories: [Governance, Finances]
-preview: "Rely blindly on outside vendors without robust, independent verification is frightening. We detail serious irregularities related to the Grand Lakes MUD No. 2 audit report for FY2025. Credible signs of signature forgery can be seen. And by rubber-stamping financial disclosures and legal representations that contain verifiable falsehoods, the board did not merely slip into a passive oversight role—they effectively handed the keys of the district over to the very consultants they were elected to supervise."
+preview: "Relying blindly on outside vendors without robust, independent verification is frightening. We detail serious irregularities related to the Grand Lakes MUD No. 2 audit report for FY2025. Credible signs of signature forgery can be seen. And by rubber-stamping financial disclosures and legal representations that contain verifiable falsehoods, the board did not merely slip into a passive oversight role—they effectively handed the keys of the district over to the very consultants they were elected to supervise."
 prvimg: "/assets/imgs/bberry.jpg"
 date: 2026-10-24
 ---
