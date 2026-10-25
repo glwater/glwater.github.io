@@ -57,7 +57,8 @@ By the time we hit that 15-year cross-over point, we will still require another 
 
 ### <img src="/assets/imgs/circig.svg"> Interested in the code!
 There you have it... 
-<details markdown="1" style="margin-bottom: 20px;"><summary>Python Code (click to expand)</summary>
+<details markdown="1" style="margin-bottom: 20px;">
+<summary>Python Code (click to expand)</summary>
 ```python
 # ----- Copy into bonds.py and run as `python bonds.py`
 # For bond amount $xM, at r% for N years, 
