@@ -16,24 +16,25 @@
     }
   };
 </script>
-<script async src="https://cdn.jsdelivr.net"></script>
+<script async src="https://jsdelivr.net" crossorigin="anonymous"></script>
 {% endif %}
 
-<!-- KaTeX Configuration (Production CDN vs. Local Assets) -->
-{% if jekyll.environment == "production" %}
-  <!-- Live: Fast CDN delivery for public visitors -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
-{% else %}
-  <!-- Local: Uses the cloned assets -->
-  <link rel="stylesheet" href="/assets/css/katex.min.css">
-  <script defer src="/assets/js/katex.min.js"></script>
-{% endif %}
+<!-- KaTeX Configuration -->
+{% if page.katex %}
+  {% if jekyll.environment == "production" %}
+    <!-- Live Production CDN -->
+    <link rel="stylesheet" href="https://jsdelivr.net" crossorigin="anonymous">
+    <script defer src="https://jsdelivr.net" crossorigin="anonymous"></script>
+  {% else %}
+    <!-- Local Development Assets -->
+    <link rel="stylesheet" href="/assets/css/katex.min.css">
+    <script defer src="/assets/js/katex.min.js"></script>
+  {% endif %}
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   function cleanAndRenderDynamicMath() {
-    // Gracefully wait until defer-loaded KaTeX library is fully ready on the window
+    // Wait until defer-loaded KaTeX library is fully ready on the window global scope
     if (typeof window.katex === 'undefined') {
       setTimeout(cleanAndRenderDynamicMath, 30);
       return;
@@ -46,11 +47,8 @@ document.addEventListener("DOMContentLoaded", function() {
       if (!rawTex) return;
 
       // ----- CLEANUP FOR JSDELIVR TYPOS -----
-      // Fixes '\f\relax{x}' into standard 'f(x)'
       rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
-      // Fixes '\f\hat' into standard '\hat'
       rawTex = rawTex.replace(/\\f\\hat/g, '\\hat');
-      // Fixes any loose '\f ' prefixes followed by a space or x, without touching \frac
       rawTex = rawTex.replace(/\\f\s*([xX])/g, 'f$1');
       // ------------------------------------------------
 
@@ -94,3 +92,4 @@ document.addEventListener("DOMContentLoaded", function() {
   cleanAndRenderDynamicMath();
 });
 </script>
+{% endif %}
