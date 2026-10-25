@@ -58,57 +58,57 @@ By the time we hit that 15-year cross-over point, we will still require another 
 ### <img src="/assets/imgs/circig.svg"> Interested in the code!
 There you have it... 
 <details markdown="1" style="margin-bottom: 20px;">
-<summary>Python Code (click to expand)</summary>
-```python
-# ----- Copy into bonds.py and run as `python bonds.py`
-# For bond amount $xM, at r% for N years, 
-# Calculate by year: Annual Payment, Interest Paid, Principal Paid, 
-#                    Cumulative Interest Paid, and Remaining Balance.
-import pandas as pd
-import matplotlib.pyplot as plt
+  <summary>Python Code (click to expand)</summary>
+  ```python
+  # ----- Copy into bonds.py and run as `python bonds.py`
+  # For bond amount $xM, at r% for N years, 
+  # Calculate by year: Annual Payment, Interest Paid, Principal Paid, 
+  #                    Cumulative Interest Paid, and Remaining Balance.
+  import pandas as pd
+  import matplotlib.pyplot as plt
 
-P = 27930000    # Principal amount
-r = 4.5         # Annual interest rate in %
-N = 25          # Amortization period in years
-r = r / 100
+  P = 27930000    # Principal amount
+  r = 4.5         # Annual interest rate in %
+  N = 25          # Amortization period in years
+  r = r / 100
 
-def generate_bond_schedule(P, r, N):
-    Myr = P * (r * (1 + r)**N) / ((1 + r)**N - 1)
-    Bal = P
-    I = 0
-    schedule_data = []
+  def generate_bond_schedule(P, r, N):
+      Myr = P * (r * (1 + r)**N) / ((1 + r)**N - 1)
+      Bal = P
+      I = 0
+      schedule_data = []
     
-    for year in range(1, N + 1):
-        Iyr = Bal * r
-        M = Myr - Iyr
-        I += Iyr
-        Bal -= M
+      for year in range(1, N + 1):
+          Iyr = Bal * r
+          M = Myr - Iyr
+          I += Iyr
+          Bal -= M
         
-        if Bal < 0:
-            Bal = 0
+          if Bal < 0:
+              Bal = 0
             
-        schedule_data.append({
-            "Year": year,
-            "Annual Payment": Myr,
-            "Interest Paid": Iyr,
-            "Principal Paid": M,
-            "Cumulative Interest Paid": I,
-            "Remaining Balance": Bal
-        })
+          schedule_data.append({
+              "Year": year,
+              "Annual Payment": Myr,
+              "Interest Paid": Iyr,
+              "Principal Paid": M,
+              "Cumulative Interest Paid": I,
+              "Remaining Balance": Bal
+          })
 
-    df = pd.DataFrame(schedule_data)
-    return df
+      df = pd.DataFrame(schedule_data)
+      return df
 
-df = generate_bond_schedule(P, r, N)
-print("--- BOND AMORTIZATION SCHEDULE ---")
-print(df.to_string(index=False, formatters={
-    'Annual Payment': '{:,.0f}'.format,
-    'Interest Paid': '{:,.0f}'.format,
-    'Principal Paid': '{:,.0f}'.format,
-    'Cumulative Interest Paid': '{:,.0f}'.format,
-    'Remaining Balance': '{:,.0f}'.format
-}))
-```
+  df = generate_bond_schedule(P, r, N)
+  print("--- BOND AMORTIZATION SCHEDULE ---")
+  print(df.to_string(index=False, formatters={
+      'Annual Payment': '{:,.0f}'.format,
+      'Interest Paid': '{:,.0f}'.format,
+      'Principal Paid': '{:,.0f}'.format,
+      'Cumulative Interest Paid': '{:,.0f}'.format,
+      'Remaining Balance': '{:,.0f}'.format
+  }))
+  ```
 </details>
 
 ### 📝 📊 Interested in the Data?
@@ -119,18 +119,18 @@ print(df.to_string(index=False, formatters={
 ### Accuracy Check
 > 
 A simple and rough accuracy check shows that the interest amount fits the amortization model.  <br><br>
-P = $27,930,000; r = 4.5% / 12 = 0.00375; n = 25 years x 12 = 300 months.
-- For monthly payments due at the end of the period:<br>
-  • M = $155,244 per month.<br>
-  • Out-of-pocket Cost = M x n = $46,573,200.<br>
-  • Total Interest Paid = (M x n) - P = $18,643,200.
+P = $27,930,000; r = 4.5% / 12 = 0.00375; n = 25 years x 12 = 300 months.  <br><br>
+For monthly payments due at the end of the period:  
+• M = $155,244 per month.  
+• Out-of-pocket Cost = M x n = $46,573,200.  
+• Total Interest Paid = (M x n) - P = $18,643,200.
 ```math
 M = \frac{P \cdot r \cdot (1+r)^n}{(1+r)^n-1}
 ```
-- For monthly payments due at the beginning of the period:<br>
-  • M = $154,664 per month.<br>
-  • Out-of-pocket Cost = M x n = $46,399,206.<br>
-  • Total Interest Paid = (M x n) - P = $18,469,206.
+For monthly payments due at the beginning of the period:  
+• M = $154,664 per month.  
+• Out-of-pocket Cost = M x n = $46,399,206.  
+• Total Interest Paid = (M x n) - P = $18,469,206.
 ```math
 M = \frac{P \cdot r \cdot (1+r)^{n-1}}{(1+r)^n-1}
 ```
