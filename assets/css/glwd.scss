@@ -252,7 +252,7 @@ article:target h3 {
     li::marker {color: #42a4e0;} }
 
   /* Keeps list items tight, only spacing the outer list wrapper */
-  li { margin-bottom: 0.25rem; }
+  li { margin-bottom: 0.75em; }
 
   /* Code inside the blocks does not inherit the bottom margin */
   pre code { margin-bottom: 0; }
