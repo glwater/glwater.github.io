@@ -16,15 +16,15 @@
     }
   };
 </script>
-<script async src="https://jsdelivr.net" crossorigin="anonymous"></script>
+<script async src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
 {% endif %}
 
 <!-- KaTeX Configuration -->
 {% if page.katex %}
   {% if jekyll.environment == "production" %}
     <!-- Live Production CDN -->
-    <link rel="stylesheet" href="https://jsdelivr.net" crossorigin="anonymous">
-    <script defer src="https://jsdelivr.net" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
   {% else %}
     <!-- Local Development Assets -->
     <link rel="stylesheet" href="/assets/css/katex.min.css">
