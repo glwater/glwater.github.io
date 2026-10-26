@@ -21,62 +21,15 @@
 
 <!-- KaTeX Configuration -->
 {% if page.katex %}
-<!-- {% if jekyll.environment == "production" %} -->
-<!-- Live Production CDN -->
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous"> -->
-<!-- <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>  -->
-<!-- {% else %}  -->
-<!-- Local Development Assets -->
-<link rel="stylesheet" href="{{ '/assets/css/katex.min.css' | relative_url }}">
-<script defer src="{{ '/assets/js/katex.min.js' | relative_url }}"></script>
-<!-- {% endif %}  -->
-
-<!-- Official KaTeX Auto-Render Extension -->
-<script defer src="https://cdn.jsdelivr.net"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  function initGlobalMathRender() {
-    // Ensure KaTeX global object exists before running
-    if (typeof window.katex === 'undefined') {
-      setTimeout(initGlobalMathRender, 50);
-      return;
-    }
-
-    // Pre-process and sanitize raw Kramdown code blocks prior to parsing
-    const kramdownMathBlocks = document.querySelectorAll('pre code.language-math');
-    kramdownMathBlocks.forEach((block) => {
-      let formula = block.textContent.trim();
-      
-      // Clean up common content delimiters if Kramdown escaped them
-      if (formula.startsWith('\\(') && formula.endsWith('\\)')) {
-        formula = formula.substring(2, formula.length - 2).trim();
-      }
-      
-      // Convert the code element into a clean string wrapped in standard block anchors
-      const wrapper = document.createElement('div');
-      wrapper.className = "katex-display-wrapper";
-      wrapper.textContent = '$$' + formula + '$$';
-      
-      const parentPre = block.closest('pre');
-      if (parentPre && parentPre.parentNode) {
-        parentPre.parentNode.replaceChild(wrapper, parentPre);
-      }
-    });
-
-    // Fire the native auto-render engine to translate all instances globally
-    if (typeof renderMathInElement === 'function') {
-      renderMathInElement(document.body, {
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false}
-        ],
-        throwOnError: false
-      });
-    }
-  }
-
-  initGlobalMathRender();
-});
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{
+    delimiters: [
+      { left: '$$',  right: '$$',  display: true  },
+      { left: '$',   right: '$',   display: false },
+      { left: '\\[', right: '\\]', display: true  },
+      { left: '\\(', right: '\\)', display: false }
+  ]});">
 </script>
 {% endif %}
