@@ -37,6 +37,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jemoji
+  - jekyll-katex
 
 exclude:
   - Gemfile
