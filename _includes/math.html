@@ -31,55 +31,52 @@
 <script defer src="{{ '/assets/js/katex.min.js' | relative_url }}"></script>
 <!-- {% endif %}  -->
 
+<!-- Official KaTeX Auto-Render Extension -->
+<script defer src="https://cdn.jsdelivr.net"></script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  function renderLiveKramdownMath() {
-    // Wait until local KaTeX asset is fully loaded on the global window scope
+  function initGlobalMathRender() {
+    // Ensure KaTeX global object exists before running
     if (typeof window.katex === 'undefined') {
-      setTimeout(renderLiveKramdownMath, 30);
+      setTimeout(initGlobalMathRender, 50);
       return;
     }
 
-    // Target the exact element Kramdown generates on your live site
-    const mathElements = document.querySelectorAll('pre code.language-math');
-    
-    mathElements.forEach((codeBlock) => {
-      let rawTex = codeBlock.textContent.trim();
-      if (!rawTex) return;
-
-      // ----- CLEANUP FOR TYPOS -----
-      rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
-      rawTex = rawTex.replace(/\\f\\hat/g, '\\hat');
-      rawTex = rawTex.replace(/\\f\s*([xX])/g, 'f$1');
-      // ------------------------------------------------
-
-      // Create a clean container for KaTeX to render into
-      const container = document.createElement('div');
-      container.className = "rendered-markdown-math";
-      container.style.textAlign = "center";
-      container.style.margin = "1.8rem 0";
-      container.style.width = "100%";
-      container.style.overflowX = "auto";
-
-      try {
-        // Render raw TeX string via local KaTeX engine
-        window.katex.render(rawTex, container, {
-          displayMode: true,
-          throwOnError: false
-        });
-
-        // Find the outermost container element (<pre>) to swap entirely
-        const preTag = codeBlock.closest('pre');
-        if (preTag && preTag.parentNode) {
-          preTag.parentNode.replaceChild(container, preTag);
-        }
-      } catch (err) {
-        console.error("Local Math Parser Error: ", err);
+    // Pre-process and sanitize raw Kramdown code blocks prior to parsing
+    const kramdownMathBlocks = document.querySelectorAll('pre code.language-math');
+    kramdownMathBlocks.forEach((block) => {
+      let formula = block.textContent.trim();
+      
+      // Clean up common content delimiters if Kramdown escaped them
+      if (formula.startsWith('\\(') && formula.endsWith('\\)')) {
+        formula = formula.substring(2, formula.length - 2).trim();
+      }
+      
+      // Convert the code element into a clean string wrapped in standard block anchors
+      const wrapper = document.createElement('div');
+      wrapper.className = "katex-display-wrapper";
+      wrapper.textContent = '$$' + formula + '$$';
+      
+      const parentPre = block.closest('pre');
+      if (parentPre && parentPre.parentNode) {
+        parentPre.parentNode.replaceChild(wrapper, parentPre);
       }
     });
+
+    // Fire the native auto-render engine to translate all instances globally
+    if (typeof renderMathInElement === 'function') {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false}
+        ],
+        throwOnError: false
+      });
+    }
   }
 
-  renderLiveKramdownMath();
+  initGlobalMathRender();
 });
 </script>
 {% endif %}
