@@ -880,3 +880,56 @@ kbd {
     position: absolute;
     left: 0;
     top: 0; } }
+
+/* --- Responsive KaTeX Mobile Layout Fixes --- */
+// Block Display Container Adjustments
+.katex-display-wrapper, 
+.katex-display {
+  width: 100% !important;
+  margin: 1.5rem 0 !important;
+  padding: 0.5rem 0.25rem !important;
+  
+  // Enable horizontal scrolling inside the container if the formula is too wide
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  
+  // Custom subtle scrollbar styling for mobile browsers
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  // Center alignments
+  text-align: center !important;
+  
+  // Ensure the internal math element can shrink slightly but scroll safely
+  .katex {
+    display: inline-block !important;
+    max-width: 100% !important;
+    text-align: initial !important;
+  }
+}
+
+// Prevent Inline Math From Stretching Paragraphs
+p .katex {
+  padding: 0 0.15em;
+  white-space: nowrap; // Keeps inline formulas on one line
+}
+
+// Mobile Specific Scaling Tweaks
+@media (max-width: 768px) {
+  .katex-display-wrapper, 
+  .katex-display {
+    // Slightly scale down the overall font size of big math blocks on phones
+    font-size: 0.95em !important; 
+    margin: 1.2rem 0 !important;
+  }
+  
+  // Smooth out touch tracking momentum scrolling on iOS devices
+  .katex-display-wrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+}
