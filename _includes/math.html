@@ -21,53 +21,65 @@
 
 <!-- KaTeX Configuration -->
 {% if page.katex %}
-    <link rel="stylesheet" href="{{ '/assets/css/katex.min.css' | relative_url }}">
-    <script defer src="{{ '/assets/js/katex.min.js' | relative_url }}"></script>
-    <!-- Add the KaTeX auto-render extension to your local assets if available, or call the fallback render below -->
-    
+<!-- {% if jekyll.environment == "production" %} -->
+<!-- Live Production CDN -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous"> -->
+<!-- <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>  -->
+<!-- {% else %}  -->
+<!-- Local Development Assets -->
+<link rel="stylesheet" href="{{ '/assets/css/katex.min.css' | relative_url }}">
+<script defer src="{{ '/assets/js/katex.min.js' | relative_url }}"></script>
+<!-- {% endif %}  -->
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  function renderLiveSiteMath() {
-    // Wait until defer-loaded KaTeX library is fully ready on the window global scope
+  function renderLiveKramdownMath() {
+    // Wait until local KaTeX asset is fully loaded on the global window scope
     if (typeof window.katex === 'undefined') {
-      setTimeout(renderLiveSiteMath, 30);
+      setTimeout(renderLiveKramdownMath, 30);
       return;
     }
 
-    // Target the actual text blocks where Kramdown prints your math formulas on the live site
-    // This looks for raw text blocks containing math characters or standard paragraph/div layouts
-    const paragraphs = document.querySelectorAll('main p, main div');
+    // Target the exact element Kramdown generates on your live site
+    const mathElements = document.querySelectorAll('pre code.language-math');
     
-    paragraphs.forEach((el) => {
-      let rawText = el.innerHTML;
-      
-      // Match formulas wrapped in $$ symbols natively outputted by Kramdown
-      if (rawText.includes('$$')) {
-        // ----- CLEANUP TYPOS -----
-        rawText = rawText.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
-        rawText = rawText.replace(/\\f\\hat/g, '\\hat');
-        rawText = rawText.replace(/\\f\s*([xX])/g, 'f$1');
-        // ------------------------------------------------
+    mathElements.forEach((codeBlock) => {
+      let rawTex = codeBlock.textContent.trim();
+      if (!rawTex) return;
 
-        // Replace the element's content by processing the math string natively via KaTeX
-        // If your theme compiles $$ blocks into custom layout tags, you can also inject the auto-render script below
-        el.innerHTML = rawText;
-      }
-    });
+      // ----- CLEANUP FOR TYPOS -----
+      rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
+      rawTex = rawTex.replace(/\\f\\hat/g, '\\hat');
+      rawTex = rawTex.replace(/\\f\s*([xX])/g, 'f$1');
+      // ------------------------------------------------
 
-    // Native fallback engine execution to capture all remaining elements globally
-    if (typeof renderMathInElement === 'function') {
-        renderMathInElement(document.body, {
-          delimiters: [
-            {left: '$$', right: '$$', display: true},
-            {left: '$', right: '$', display: false}
-          ],
+      // Create a clean container for KaTeX to render into
+      const container = document.createElement('div');
+      container.className = "rendered-markdown-math";
+      container.style.textAlign = "center";
+      container.style.margin = "1.8rem 0";
+      container.style.width = "100%";
+      container.style.overflowX = "auto";
+
+      try {
+        // Render raw TeX string via local KaTeX engine
+        window.katex.render(rawTex, container, {
+          displayMode: true,
           throwOnError: false
         });
-    }
+
+        // Find the outermost container element (<pre>) to swap entirely
+        const preTag = codeBlock.closest('pre');
+        if (preTag && preTag.parentNode) {
+          preTag.parentNode.replaceChild(container, preTag);
+        }
+      } catch (err) {
+        console.error("Local Math Parser Error: ", err);
+      }
+    });
   }
 
-  renderLiveSiteMath();
+  renderLiveKramdownMath();
 });
 </script>
 {% endif %}
