@@ -21,75 +21,53 @@
 
 <!-- KaTeX Configuration -->
 {% if page.katex %}
-<!-- {% if jekyll.environment == "production" %} -->
-<!-- Live Production CDN -->
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous"> -->
-<!-- <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>  -->
-<!-- {% else %}  -->
-<!-- Local Development Assets -->
-    <link rel="stylesheet" href="/assets/css/katex.min.css">
-    <script defer src="/assets/js/katex.min.js"></script>
-<!-- {% endif %}  -->
-
+    <link rel="stylesheet" href="{{ '/assets/css/katex.min.css' | relative_url }}">
+    <script defer src="{{ '/assets/js/katex.min.js' | relative_url }}"></script>
+    <!-- Add the KaTeX auto-render extension to your local assets if available, or call the fallback render below -->
+    
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  function cleanAndRenderDynamicMath() {
+  function renderLiveSiteMath() {
     // Wait until defer-loaded KaTeX library is fully ready on the window global scope
     if (typeof window.katex === 'undefined') {
-      setTimeout(cleanAndRenderDynamicMath, 30);
+      setTimeout(renderLiveSiteMath, 30);
       return;
     }
 
-    const mathBlocks = document.querySelectorAll('code.language-math');
+    // Target the actual text blocks where Kramdown prints your math formulas on the live site
+    // This looks for raw text blocks containing math characters or standard paragraph/div layouts
+    const paragraphs = document.querySelectorAll('main p, main div');
     
-    mathBlocks.forEach((block) => {
-      let rawTex = block.textContent.trim();
-      if (!rawTex) return;
+    paragraphs.forEach((el) => {
+      let rawText = el.innerHTML;
+      
+      // Match formulas wrapped in $$ symbols natively outputted by Kramdown
+      if (rawText.includes('$$')) {
+        // ----- CLEANUP TYPOS -----
+        rawText = rawText.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
+        rawText = rawText.replace(/\\f\\hat/g, '\\hat');
+        rawText = rawText.replace(/\\f\s*([xX])/g, 'f$1');
+        // ------------------------------------------------
 
-      // ----- CLEANUP FOR JSDELIVR TYPOS -----
-      rawTex = rawTex.replace(/\\f\\relax\{([^}]+)\}/g, 'f($1)');
-      rawTex = rawTex.replace(/\\f\\hat/g, '\\hat');
-      rawTex = rawTex.replace(/\\f\s*([xX])/g, 'f$1');
-      // ------------------------------------------------
-
-      // Automatically strip legacy notation brackets if present inside the markdown block
-      if (rawTex.startsWith('\\(') && rawTex.endsWith('\\)')) {
-        rawTex = rawTex.substring(2, rawTex.length - 2).trim();
-      }
-      if (rawTex.startsWith('\\[') && rawTex.endsWith('\\]')) {
-        rawTex = rawTex.substring(2, rawTex.length - 2).trim();
-      }
-
-      const container = document.createElement('div');
-      container.className = "rendered-markdown-math";
-      container.style.textAlign = "center";
-      container.style.margin = "1.8rem 0";
-      container.style.width = "100%";
-      container.style.overflowX = "auto";
-
-      try {
-        window.katex.render(rawTex, container, {
-          displayMode: true,
-          throwOnError: false
-        });
-
-        let elementToReplace = block;
-        while (elementToReplace.parentElement && 
-              (elementToReplace.parentElement.tagName === 'PRE' || 
-               elementToReplace.parentElement.classList.contains('highlight') || 
-               elementToReplace.parentElement.classList.contains('language-math') ||
-               elementToReplace.parentElement.classList.contains('highlighter-rouge'))) {
-          elementToReplace = elementToReplace.parentElement;
-        }
-
-        elementToReplace.parentNode.replaceChild(container, elementToReplace);
-      } catch (err) {
-        console.error("Local Math Parser Error: ", err);
+        // Replace the element's content by processing the math string natively via KaTeX
+        // If your theme compiles $$ blocks into custom layout tags, you can also inject the auto-render script below
+        el.innerHTML = rawText;
       }
     });
+
+    // Native fallback engine execution to capture all remaining elements globally
+    if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+    }
   }
 
-  cleanAndRenderDynamicMath();
+  renderLiveSiteMath();
 });
 </script>
 {% endif %}
