@@ -21,15 +21,15 @@
 
 <!-- KaTeX Configuration -->
 {% if page.katex %}
-  {% if jekyll.environment == "production" %}
-    <!-- Live Production CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>
-  {% else %}
-    <!-- Local Development Assets -->
+<!-- {% if jekyll.environment == "production" %} -->
+<!-- Live Production CDN -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net" crossorigin="anonymous"> -->
+<!-- <script defer src="https://cdn.jsdelivr.net" crossorigin="anonymous"></script>  -->
+<!-- {% else %}  -->
+<!-- Local Development Assets -->
     <link rel="stylesheet" href="/assets/css/katex.min.css">
     <script defer src="/assets/js/katex.min.js"></script>
-  {% endif %}
+<!-- {% endif %}  -->
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
