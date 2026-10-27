@@ -13,7 +13,7 @@ katex: true
 ### Why It Matters
 The Grand Lakes community has already seen how consequential the questions of transparency, fiduciary duties, lawful governance, and compliance with the law can become.
 
-We, the residents / taxpayers of Grand Lakes MUD No. 2, managed to defeat a 2026 bond election involving proposed authorization for a total out-of-pocket cost of \$46.6 million (\$27.93 million at 4.5% for 25 years). On April 20, 2026, just 12 days before election day, the MUD attorney amended the the bond-election order, changing a \$5.25 million figure to \$15.25 million. 
+We, the residents / taxpayers of [Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/), managed to defeat a 2026 bond election involving proposed authorization for a total out-of-pocket cost of **$46.6 million** (**$27.93 million** at 4.5% for 25 years). On April 20, 2026, just 12 days before election day, the MUD attorney amended the the bond-election order, changing a **$5.25 million** figure to **$15.25 million**. 
 
 Whether every aspect of the bond proposal was lawful and justified is a matter for appropriate legal and governmental review. But the broader lesson is clear: **Residents must scrutinize proposed debt before it is approved—not after it becomes a 20-, 30-, or 40-year obligation.** The community cannot afford to treat tens of millions of dollars of proposed debt as merely another agenda item. This message must be appreciated, and complied with, by the boards and consultants alike.
 
