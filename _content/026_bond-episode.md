@@ -2,7 +2,7 @@
 layout: page
 title: "Grand Lakes: A Community Asking Who Is Accountable for Its Water Districts<br>
         Part 11: Grand Lakes MUD No. 2 and the $46.6 million bond episode"
-tags: [Grand Lakes, Katy, Texas, board, consultant, bonds]
+tags: [Grand Lakes, Katy, Texas, board, consultant, bonds, MUD2, Schwartz Page & Harding]
 categories: [Governance, Finances]
 preview: "Grand Lakes residents raise serious questions about the operation of the four water districts (MUD4, MUD1, MUD2, and WCID) and the conduct of the different consultants (attorney, operator, engineer, bookkeeper, auditor, financial advisor, tax collector, etc.) serving our districts. This article documents how the MUD2 residents / taxpayers managed to defeat a questionable bond scheme that would have made the consultants serving the district in control of the district and its residents for another 40 years."
 prvimg: "/assets/imgs/money.jpg" 
