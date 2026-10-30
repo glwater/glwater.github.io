@@ -2,14 +2,13 @@
 layout: page
 title: "The Insider Depository: Conflict of Interest and Inflated Balances at Grand Lakes MUD No. 2"
 date: 2026-10-30
-categories: [Governance, Compliance]
-tags: [MUD2, finances, transparency]
-author: "Grand Lakes Community Oversight Project"
-preview: "An in-depth look into the conflict of interest involving MUD board member William Donald Butler, who also serves as VP, Community/Commercial Banking at Central Bank (Houston)."
+categories: [Governance, Compliance, Finances]
+tags: [MUD2, transparency]
+preview: "An in-depth look into the conflict of interest involving Grand Lakes MUD No. 2 board member William Donald Butler, who also serves as VP, Community/Commercial Banking, at Central Bank (Houston)."
 prvimg: "/assets/imgs/trilliumy.jpg"
 ---
 
-[Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/) current Board of Directors comprises: John Scot Vann, William Donald Butler, Gregory Jay Henry, George Armistead, and Elizabeth Drinkard. Armistead and Drinkard replaced Michael Christopher McClusky and Bradley Allen Baker, who lost in the <a href="https://results.enr.clarityelections.com/TX/Fort_Bend/126197/web.345435/#/summary?category=C_3">May 2, 2026, election.</a>
+[Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/) current Board comprises the following five members: John Scot Vann, William Donald Butler, Gregory Jay Henry, George Armistead, and Elizabeth Drinkard. Armistead and Drinkard replaced Michael Christopher McClusky and Bradley Allen Baker, who lost in the <a href="https://results.enr.clarityelections.com/TX/Fort_Bend/126197/web.345435/#/summary?category=C_3">May 2, 2026, election.</a>
 
 Municipal Utility Districts (MUDs) hold a unique responsibility. They manage the essential water, drainage, and infrastructure of our neighborhoods utilizing public funds collected straight from property taxes. For independent governance to function, these boards must maintain absolute separation from the vendors, contractors, and banks they hire to handle public capital. 
 
