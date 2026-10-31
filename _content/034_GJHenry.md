@@ -30,10 +30,10 @@ This is nothing short of appalling because the MUD attorney, MUD board, and the 
 ### Anatomy of a Shared-Project Vote: September 18, 2023
 The practical complications of this conflict were made visible during consecutive board meetings late in 2023:
 
-1. **The Set Up (August 21, 2023):** The MUD board authorized its own Secretary (Henry) to schedule a special joint session with the GLCA board to negotiate infrastructure funding allocations.
-2. **The Dual Negotiation (September 18, 2023):** During the Special Public Meeting, Henry acted in a dual capacity—officially recorded as the MUD Board Secretary while simultaneously operating as a [KPM Management](https://kpmcommunities.com/) representative on behalf of the HOA. 
-3. **The Demand for Funds:** At this meeting, [KPM Management](https://kpmcommunities.com/) presented a project cost summary totaling $505,918. Kyle Henry (representing [KPM Management](https://kpmcommunities.com/)) requested a formal commitment letter from the MUD to lock public district funds into the private homeowner association's accounts.
-4. **The Allocation:** The MUD board subsequently approved a public reimbursement of up to **$250,000** to the HOA.
+- **The Set Up (August 21, 2023):** The MUD board authorized its own Secretary (Henry) to schedule a special joint session with the GLCA board to negotiate infrastructure funding allocations.
+- **The Dual Negotiation (September 18, 2023):** During the Special Public Meeting, Henry acted in a dual capacity—officially recorded as the MUD Board Secretary while simultaneously operating as a [KPM Management](https://kpmcommunities.com/) representative on behalf of the HOA. 
+- **The Demand for Funds:** At this meeting, [KPM Management](https://kpmcommunities.com/) presented a project cost summary totaling $505,918. Kyle Henry (representing [KPM Management](https://kpmcommunities.com/)) requested a formal commitment letter from the MUD to lock public district funds into the private homeowner association's accounts.
+- **The Allocation:** The MUD board subsequently approved a public reimbursement of up to **$250,000** to the HOA.
 
 | Board Member | Official MUD 2 Title | Action on $250k HOA Reimbursement |
 | :---                             | :---                  | :---         |
