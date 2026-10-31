@@ -52,7 +52,7 @@ This windfall allowed the district to pay down debt and build a robust reserve c
 *   **September 2026 (Bookkeeper Report):** $4,553,000.
 
 ### Not Coincidental, Rather Orchestrated
-The systemic and severe drain / depletion of [MUD2](https://www.grandlakesmud2.com/) public reserves was, and continues to be, orchestrated under the guidance of MUD attorney [Christopher Todd Skinner](https://www.sphllp.com/_chris_skinner.html) of [Schwartz, Page & Harding] (https://www.sphllp.com/).
+The systemic and severe drain / depletion of [MUD2](https://www.grandlakesmud2.com/) public reserves was, and continues to be, orchestrated under the guidance of MUD attorney [Christopher Todd Skinner](https://www.sphllp.com/_chris_skinner.html) of [Schwartz, Page & Harding](https://www.sphllp.com/).
 
 The picture is easily seen from the Revenue v. Expenditures Trend. From 2019 onward, as the MUD's revenue started to increase because further accounting and reporting errors by [The Home Depot](https://www.homedepot.com/) resulted in increased SPA revenue, the MUD attorney—working with the different consultants—started jacking up the expenditures dramatically. After FY2022, the SPA revenue started to drop sharply, while expenditures were reduced mildly. The end result is that [MUD2](https://www.grandlakesmud2.com/) was operated in FY2025 at $4M—$1.6M above its revenue. That is also two times the district's annual expenditures during FY2017 to FY2019. The curves further show how MUD2's expenditures are substantially higher than those of [MUD1](https://www.grandlakesmud1.com/) and [MUD4](https://www.grandlakesmud4.com/) despite [MUD2](https://www.grandlakesmud2.com/) being smaller (65% to 69% the size of the other two MUDs by number of residences). 
 
