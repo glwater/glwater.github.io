@@ -7,7 +7,7 @@ categories: [Governance]
 preview: "What does lawful governance mean? Set theory gives us a surprisingly powerful vocabulary for showing that good governance is not a collection of isolated virtues: the relationships among them matter."
 prvimg: "/assets/imgs/bg9.png"
 mermaid: true
-mathjax: true
+katex: true
 date: 2026-10-18
 ---
 
