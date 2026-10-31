@@ -16,11 +16,12 @@ The Grand Lakes water districts have gone, and are going, through a lot. The con
 
 As we attempt to tell the world our story, we will present evidence and allow residents to reach their own conclusions. The mathematical framework we present in this article supports exactly that approach.
 
-> 
-- Our articles will not ask the reader to accept a conclusion. Rather than telling the reader: "The Grand Lakes water districts are being improperly governed," we will provide a framework for examining governance. For each matter discussed, readers can consider the evidence and determine whether lawful governance, accountability, transparency, oversight, and other safeguards were present. That is hard to dismiss, and it gives a recurring structure we hopefully can/will employ in all articles:<br>
+>
+Our articles will not ask the reader to accept a conclusion. 
+- Rather than telling the reader: "The Grand Lakes water districts are being improperly governed," we will provide a framework for examining governance. For each matter discussed, readers can consider the evidence and determine whether lawful governance, accountability, transparency, oversight, and other safeguards were present. That is hard to dismiss, and it gives a recurring structure we hopefully can/will employ in all articles:<br>
  &nbsp; &nbsp; &nbsp; &nbsp; **Principle → mathematical relationship (if any) → question → evidence → reader's conclusion.**
 - We will let the evidence speak. Whenever possible, we will use the mathematics to organize the evidence; but never to manufacture a conclusion.
-- The science (mathematics and logic) can do something communication cannot: it shows relationships and develops answers and conclusions (implicit or explicit) without imposing a conclusion on any one reader. 
+- The science (mathematics and logic) can do something communication cannot: it shows relationships and develops answers and conclusions (implicit or explicit) without imposing a conclusion on any one reader.
 
 Next, we will present our work in three stages: The Mathematical Model (the Governance Matrix and its different quadrants), the Mathematical Relationships, and the Governance Chain.
 
@@ -91,21 +92,22 @@ block
 #### 1.2 Quadrant 1 ~ $A \cap B$ ~ Compliance + Oversight
 Compliance / governance and oversight / accountability; this is the centerpiece, the desired condition, the region where the two essential conditions coexist, the strongest quadrant. The governing body acts within the law **and** with oversight accepts responsibility for its decisions, actions, expenditures, records, contracts, and administration. 
 
-Sound public governance (Compliance / Lawful Governance ∩ Oversight / Accountability) is where public trust has the strongest logical foundation. That is:
+Sound public governance (Compliance / Lawful Governance ∩ Oversight / Accountability) is where public trust has the strongest logical foundation. 
 > 
+That is:
 - **Both safeguards are simultaneously present**. A public body is not truly well governed merely because it occasionally acts lawfully, nor merely because someone can be held accountable. The strongest governance exists where **compliance / governance and oversight / accountability operate together**.<br>
 - When comparing to the $A \cup B$ relationship (Compliance OR Oversight), the distinction between **OR** and **AND** is something ordinary citizens immediately understand.
 
 #### 1.3 Quadrant 2 ~ $A \setminus B$ ~ Compliance but no oversight (Compliance without oversight)
-$A \setminus B$ is equivalent to $A \cap \overline B$. A decision may be compliant or lawful, but the absence of oversight and the corresponding accountability creates an important weakness. The important point is that:
+$A \setminus B$ is equivalent to $A \cap \overline B$. A decision may be compliant or lawful, but the absence of oversight and the corresponding accountability creates an important weakness. 
 
 > 
+The important point is that:  
 - One lawful decision does not establish a system of lawful governance. A water district may appear to follow the law in a particular decision, but without meaningful accountability there is no dependable mechanism ensuring that lawful conduct continues.<br>
 - The conduct may be compliant (may satisfy the law), but the oversight (and the corresponding accountability) safeguard is missing.
 
-Oversight and accountability are what permits the public to ask:
-
 > 
+Oversight and accountability are what permits the public to ask:  
 • Who made the decision?<br>
 • On what authority?<br>
 • What information was considered?<br>
@@ -118,17 +120,18 @@ Oversight and accountability are what permits the public to ask:
 #### 1.4 Quadrant 3 ~ $B \setminus A$ ~ Oversight but no compliance (Oversight without compliance)
 $B \setminus A$ is equivalent to $B \cap \overline A$. This is the reverse situation, and is representative of severe dysfunction, whereby oversight is neither meaningful not effective—it s available in law but not in practice, such that it is not capable of enforcing compliance or lawful governance. That is, actions that are not lawful continue despite the presence of oversight. 
 
-One can think of a number of situations that fall within this quadrant:
 > 
+One can think of a number of situations that fall within this quadrant:  
 • There may be oversight (and the corresponding responsibility or answerability), but the underlying governance could be unlawful, resulting in irreparable harm to the community.<br>
 • Oversight and accountability came in to address legal authority that did not otherwise exist. <br>
 • Responsibility or accountability cannot substitute for legality (do not make an unlawful action lawful).
 
 #### 1.5 Quadrant 4 ~ $\overline A \cap \overline B$ ~ No compliance or oversight
-$\overline {A \cap B} = \overline A \cup \overline B$. It is everything in which at least one of the two essential conditions is missing. So failure of the combined standard occurs whenever there is **either a departure from compliance / lawful governance OR a failure of oversight / accountability**. This is the **greatest governance danger** in the model. There is:
+$\overline {A \cap B} = \overline A \cup \overline B$. It is everything in which at least one of the two essential conditions is missing. So failure of the combined standard occurs whenever there is **either a departure from compliance / lawful governance OR a failure of oversight / accountability**. This is the **greatest governance danger** in the model.
 >
-• neither compliance with the requirements of lawful governance, nor<br>
-• meaningful / effective oversight of, and accountability for, the resulting conduct.<br>
+In this fourth quadrant, there is:  
+• neither compliance with the requirements of lawful governance, <br>
+• nor meaningful / effective oversight of, and accountability for, the resulting conduct.<br>
 • And this is where seemingly small individual, separate problems or failures can either compound one another or become systemic or both.
 
 ### 🔍 Interested in the Logic Diagrams?
