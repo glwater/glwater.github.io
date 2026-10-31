@@ -42,8 +42,8 @@ Per a March 11, 2024 email from the Texas Commission on Environmental Quality ([
 
 [Schwartz, Page & Harding](https://www.sphllp.com/) administers [203 districts](https://drive.google.com/file/d/1soVNlqDWHr-RBFzjNem_CSAANjOC48Y9/view) in the Greater Houston area. In result, the Greater Houston area hosts slightly over 50% of the districts in the state of Texas. [Schwartz, Page & Harding](https://www.sphllp.com/) administers 14-15% of the districts in the Greater Houston area and 7-8% of the districts in the state of Texas. This law firm knows exactly what it is doing... 
 
-<div class ="blblock title" style="background-color: #bfdfff; font-weight:regular ; padding: 15px 15px 2px 10px;">
-  <img src="/assets/imgs/dwnld.svg" style="margin-right: 5px;"><strong> Download</strong>
-  <ul><li><a href="https://drive.google.com/file/d/1soVNlqDWHr-RBFzjNem_CSAANjOC48Y9/view">List of districts Schwartz, Page & Harding administers (PDF).</a></li>
-  <li><a href="/assets/docs/SPA_mud2.pdf">The City of Houston - Grand Lakes MUD2 Strategic Partnership Agreement (PDF).</a></li></ul>
+### Downloads
+<div class ="blblock title" style="background-color: #bfdfff; font-weight:regular ; padding: 15px 15px 15px 10px;">
+- <a href="https://drive.google.com/file/d/1soVNlqDWHr-RBFzjNem_CSAANjOC48Y9/view">List of districts Schwartz, Page & Harding administers (PDF).</a><br>
+- <a href="/assets/docs/SPA_mud2.pdf">The City of Houston - Grand Lakes MUD2 Strategic Partnership Agreement (PDF).</a>
 </div>
