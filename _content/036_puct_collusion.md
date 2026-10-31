@@ -9,12 +9,12 @@ date: 2026-10-30
 ---
 
 ### Collusion in Austin: How the PUCT Tainted the Grand Lakes Rate Appeal
-When the households of [Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/) realized their monthly water bills were being artificially doubled or tripled, they turned to state regulators for relief. What they encountered instead was procedural failure and documented backchannel collusion.
+When the households of [Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/) realized their monthly water bills were being artificially doubled or tripled (*see* our article [The Paper Trail of an Invalid Rate Order](./035_LGLaw-engagement)), they turned to state regulators for relief. What they encountered instead was procedural failure and documented backchannel collusion.
 
 ### Gathering the Signatures
 Under Texas Water Code § [13.043](https://statutes.capitol.texas.gov/?tab=1&code=WA&chapter=WA.13&artSec=13.043)(c), residents have a legal right to petition the Public Utility Commission of Texas ([PUCT](https://www.puc.texas.gov/)) for a formal review of predatory rate increases. The law requires a petition to be signed by the lesser of 10,000 or 10% of total ratepayers. 
 
-Given that Grand Lakes MUD No. 2 serves 682 households, local organizers needed 68 valid signatures. Community volunteers walked door-to-door and quickly gathered 92 signatures, successfully filing their official appeal on May 7, 2024. The [PUCT](https://www.puc.texas.gov/) formally logged the case as Docket No. [56589](https://interchange.puc.texas.gov/Search/Filings?ControlNumber=56589).
+Given that [Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/) serves 682 households, local organizers needed 68 valid signatures. Community volunteers walked door-to-door and quickly gathered 92 signatures, successfully filing their official appeal on May 7, 2024. The [PUCT](https://www.puc.texas.gov/) formally logged the case as Docket No. [56589](https://interchange.puc.texas.gov/Search/Filings?ControlNumber=56589).
 
 ### Ex Parte Communications and Backchannel Collusion
 Administrative review processes are legally required to remain strictly impartial. However, records reveal that the proceeding was profoundly compromised by a series of 25 ex parte email communications and a secretive phone call on May 20, 2024. 
@@ -38,11 +38,11 @@ The [PUCT](https://www.puc.texas.gov/) failed its fundamental duties—Our admin
 
 The evidence establishes a clear breakdown of legal, ethical, and administrative integrity across multiple levels:
 
-- Documented Ex Parte Collusion: The strict requirement for regulatory impartiality was discarded through conscious violations by a [PUCT](https://www.puc.texas.gov/) staff attorney whose role is to protect public interests.
+- **Documented Ex Parte Collusion:** The strict requirement for regulatory impartiality was discarded through conscious violations by a [PUCT](https://www.puc.texas.gov/) staff attorney whose role is to protect public interests.
 
-- Manufactured Procedural Dismissal: The PUCT’s ultimate dismissal of the petition on August 15, 2024—citing a six-day lapse of the 90-day statutory deadline—relied on a factually distorted timeline. The commission weaponized manufactured and baseless administrative procedures against the very citizens it is statutorily mandated to protect.
+- **Manufactured Procedural Dismissal:** The PUCT’s ultimate dismissal of the petition on August 15, 2024—citing a six-day lapse of the 90-day statutory deadline—relied on a factually distorted timeline. The commission weaponized manufactured and baseless administrative procedures against the very citizens it is statutorily mandated to protect.
 
-- Institutional Shielding and Accountability Failures: The institutional failure extended far past the initial dismissal. The [PUCT](https://www.puc.texas.gov/) actively blocked transparency and internal recourse by suppressing Public Information Act (PIA) requests with restrictive cost estimates, refusing to investigate the matter via its fraud division <mailto:fraud@puc.texas.gov>, and voting on August 23, 2024, to completely bar the residents' Motion for Rehearing from the open meeting agenda.
+- **Institutional Shielding and Accountability Failures:** The institutional failure extended far past the initial dismissal. The [PUCT](https://www.puc.texas.gov/) actively blocked transparency and internal recourse by suppressing Public Information Act (PIA) requests with restrictive cost estimates, refusing to investigate the matter via its fraud division <mailto:fraud@puc.texas.gov>, and voting on August 23, 2024, to completely bar the residents' Motion for Rehearing from the open meeting agenda.
 
 >
 📌 **Final Takeaway**  
