@@ -30,6 +30,6 @@ Consolidation would not automatically solve every problem. But it is reasonable 
 
 The community should have a fact-based study answering that question.
 
-### Useful Material
+### Useful Material<br><br>
 - <a href="/assets/docs/glwdmaps.pdf" target="_blank">The Grand Lakes Water Districts Map (PDF).</a><br>
 - <a href="/guides/008_GL-structure.html" target="_blank">Structure of the Grand Lakes Water Districts.</a>

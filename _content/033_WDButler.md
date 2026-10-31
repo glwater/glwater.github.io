@@ -3,7 +3,7 @@ layout: page
 title: "The Insider Depository: Conflict of Interest and Inflated Balances at Grand Lakes MUD No. 2"
 date: 2026-10-30
 categories: [Governance, Compliance, Finances]
-tags: [MUD2, transparency]
+tags: [MUD2, transparency, Central Bank, bookkeeper, Municipal Accounts & Consulting]
 preview: "An in-depth look into the conflict of interest involving Grand Lakes MUD No. 2 board member William Donald Butler, who also serves as VP, Community/Commercial Banking, at Central Bank (Houston)."
 prvimg: "/assets/imgs/trilliumy.jpg"
 ---

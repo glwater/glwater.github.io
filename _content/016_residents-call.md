@@ -21,5 +21,5 @@ The documentation assembled by Grand Lakes residents raises serious questions ab
 
 These matters deserve independent examination—not dismissal, concealment, or another round of business as usual.
 
-### Useful Links
+### Useful Links<br><br>
 - [**Know Your Water District**](/guides/) Foundational Series.

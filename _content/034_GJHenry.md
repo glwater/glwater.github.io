@@ -2,7 +2,7 @@
 layout: page
 title: "Public Trust and Private Gain: The Structural Failures of Grand Lakes MUD No. 2"
 categories: [Governance, Finances]
-tags: [MUD2, transparency, accountability, conflict of interest]
+tags: [MUD2, transparency, accountability, conflict of interest, Schwartz Page & Harding, board]
 preview: "An in-depth look into the conflict of interest involving Gregory Jay Henry—Grand Lakes MUD No. 2 board member and owner of property management firm KPM Management, a Community Property Manager assignment, a $4.8M annual budget, and a MUD board special meeting arranged specifically to facilitate Henry's private business."
 prvimg: "/assets/imgs/trumpetvine2.jpg"
 date: 2026-10-30
@@ -57,7 +57,7 @@ The financial vulnerabilities exposed at Grand Lakes MUD 2 highlight the urgent 
 
 Taxpayers must remain actively engaged in reviewing their local special district operations. When public watchdogs fall silent, it falls on the community to demand systemic accountability.
 
-### References
+### References<br><br>
 - <a href="https://kpmcommunities.com/">KPM Management.</a>
 - <a href="https://www.grandlakesmud2.com/static/0a4800c6643640fb21bc343853b8e8ec/08_21_2023_Minutes_Approved_674f762704.pdf">August 21, 2023 Meeting Minutes.</a>
 - <a href="https://www.grandlakesmud2.com/static/f5431a5bf1ae8778bf4789acd7f7670b/09_18_23_Special_Agenda_GL_MUD_2_d2e612e2bb.pdf">September 18, 2023 Special Meeting Agenda.</a>

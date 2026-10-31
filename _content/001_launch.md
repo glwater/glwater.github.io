@@ -19,7 +19,7 @@ As a community, staying informed about our shared local utilities shouldn't requ
 ### 🚀 The Journey Begins
 Welcome to our new digital home at [glwater.github.io](https://glwater.github.io)! This platform is designed to inform the Grand Lakes community about everything related to the four water districts ([MUD4](https://www.grandlakesmud4.com/), [MUD1](https://www.grandlakesmud1.com/), [MUD2](https://www.grandlakesmud2.com/), and [WCID](https://districtdirectory.org/fort-bend-county/grand-lakes-water-control-and-improvement-district/)): Governance, Compliance, Accountability, Finances, Infrastructure, Consultants (attorney, operator, bookkeeper, auditor, financial advisor, engineer, tax collector, delinquent tax attorney, trash collector, web hosting provider), and more.
 
-### 🛠️ 🎯 What We Are Building - What You Can Find on the Site
+### 🛠️ 🎯 What We Are Building - What You Can Find on the Site<br><br>
 * **📢 Alerts:** Alerts will lock cleanly at the top of the portal, and will cover all sorts of admonitions: emergencies, warnings, intelligence, tips, advisories, and notes.
 * **📑 Streamlined Archives:** Easily browse news, updates, financial analysis, ongoing projects, and neighborhood alerts filtered by Tag and Category.
 * **📊 Financial Transparency & Budgets:** Review breakdowns of infrastructure projects, budgets, taxes, and audits and see exactly how allocations are being utilized across our water districts.

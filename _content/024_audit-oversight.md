@@ -26,5 +26,5 @@ A board should be asking many, serious questions. The questions are not hostile 
 - Was the expenditure authorized in a properly noticed public meeting?
 - Can the public inspect the supporting documents?
 
-### Related Material
+### Related Material<br><br>
 - <a href="https://www.grandlakesmud2.com/static/aca54eeea16d936f13749fa12691dea7/Audit_FYE_2025_Final_Audit_Report_GLMUD_2_1_a83e444f68.pdf">The FY2025 audit report for Grand Lakes MUD No. 2.</a>
