@@ -247,6 +247,7 @@ article:target h3 {
   
   ul {
     margin-left: 24px;
+    margin-top: -8px;
     margin-bottom: 16px;
     list-style-type: square;
     li::marker {color: #42a4e0;} }
@@ -395,7 +396,6 @@ ul.cr {
 ul.sb {
   list-style-type: square; 
   margin-left: 10px; 
-  margin-top: -15px;
   li::marker {color: #42a4e0;}
 }
 
