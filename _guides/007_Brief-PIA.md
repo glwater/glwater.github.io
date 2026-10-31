@@ -3,7 +3,7 @@ layout: page
 title: "Guide: The Texas Public Information Act in Brief"
 categories: [Guides, Governance]
 tags: [Public Information Act, Government Code, board, law, 
-       contractor, consultant, production, records, right, local government, 
+       contractor, consultant, production, records, rights, local government, 
        confidential, privilege, proprietary, electronic]
 author: Grand Lakes Community Portal
 preview: "Foundational Series: Know Your Water District. This introductory article talks about the Texas Public Information Act (PIA). What is public information, why district records matter to the public, the public's right to know, public information requests, withholding information, and more."
