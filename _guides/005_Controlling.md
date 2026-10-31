@@ -82,7 +82,7 @@ The operator may be involved in some of the most important day-to-day activities
 The operator may have extensive practical control over the physical system.
 - Operational responsibility is not the same thing as governmental authority.
 - The board remains responsible for the district's governance.
-- A useful distinction is: 
+- A useful distinction is: <br><br>
   - **The operator operates the system.** 
   - **The board governs the district.**
 
