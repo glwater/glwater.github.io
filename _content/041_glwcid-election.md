@@ -32,7 +32,7 @@ Uncovering these structural maneuvers required aggressive use of Public Informat
 - **No digital paper trail:** No official election orders, sample ballots, or cancellation orders were ever hosted on the [WCID's designated public web directory](https://districtdirectory.org/fort-bend-county/grand-lakes-water-control-and-improvement-district/).
 - **Missing sample ballot and text:** Official inquiries revealed the district held zero communications with Fort Bend County regarding ballot text and never drafted a sample layout, shared it with the county, or published it on the district's website.
 - **Empty schedules:** The formal January election order was approved with **completely blank exhibits** for early voting and Election Day polling locations.
-- **Notice without order:**The December 11, 2025, notice of election was published without an election order. The election order was passed and adopted 42 days later, on January 22, 2026. 
+- **Notice without order:** The December 11, 2025, notice of election was published without an election order. The election order was passed and adopted 42 days later, on January 22, 2026. 
 - **Defiance of the law:** The [Schwartz, Page & Harding](https://www.sphllp.com/) attorneys have reached a level of disconnection, denial, and defiance that they would comfortably state that Texas state laws do not legally compel them to actively broadcast resolutions / orders or maintain structural clarity on the district portal. This behavior demonstrates a deliberate, fishy, unlawful pattern of keeping the public out of local governance.
 
 ### Attorney Cannot Invoke Confusion, Negligence, Or Ignorance
