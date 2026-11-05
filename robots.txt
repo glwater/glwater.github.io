@@ -5,4 +5,4 @@ permalink: /robots.txt
 User-agent: *
 Allow: /
 
-Sitemap: https://github.io
+Sitemap: https://glwater.github.io/sitemap.xml
