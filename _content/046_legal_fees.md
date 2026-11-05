@@ -43,7 +43,7 @@ Under Water Code § [49.067(a)](https://statutes.capitol.texas.gov/?tab=1&code=W
 Finally, in a June 2026 MUD board meeting, [Skinner](https://www.sphllp.com/_chris_skinner.html) bragged about paying [Lloyd Gosselink Rochelle & Townsend](https://www.lglawfirm.com/) **$216,365** in legal fees, further describing them as "*a law firm with extensive experience with state regulatory matters.*" This figure could even be higher by now and it will continue to grow as the suit [D-1-GN-24-010136](https://odysseyweb.traviscountytx.gov/app/RegisterOfActions/#/565B23C172A97821F23F1F46A3882F80DDE8728AEBE9CFD1EF96638D80E0350690EA0B93D4AE3EF05BDDB8D56BE52A9B523EA841C4A996602187153905F1FC896E8334F35A5A7584DD78B722E5373307) continues. That's how lack of state oversight makes private firms abuse public funds.
 
 ### Concluding remark
-The legal fees we documented above must not go unnoticed. They must be investigated by the appropriate state agencies ands authorities.
+The legal fees we documented above must not go unnoticed. They must be investigated by the appropriate state agencies and authorities.
 
 Impunity is a worse crime than the crime itself. [Christopher Todd Skinner](https://www.sphllp.com/_chris_skinner.html) of [Schwartz, Page & Harding](https://www.sphllp.com/) has since 2003 caused the Grand Lakes community grave and irreparable harm. He must be brought to justice. Additionally, all board members of the Grand Lakes water districts who chose to maintain silence about Skinner's violations must be held accountable.
 
