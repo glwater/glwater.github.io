@@ -1,5 +1,5 @@
-title: "Grand Lakes Community Oversight Project"
-description: "Resource site for the Grand Lakes community and water districts (MUDs and WCID). Access essential community news, announcements, alerts, updates, guides to get to Know Your District, and information on boards, consultant acts and practices, governance, compliance, water, infrastructure, projects, finances, budgets, taxes, spending, and more."
+title: "Grand Lakes Community Portal"
+description: "Grand Lakes water districts (MUDs & WCID) resource hub covering boards, consultants, governance, compliance, infrastructure, finances, budgets, taxes, spending."
 url: "https://glwater.github.io"
 baseurl: "" # Leave empty if hosting at the root domain glwater.github.io
 image: "/assets/imgs/GLsite.jpg" 
@@ -14,14 +14,14 @@ twitter:
   username: "GLKatyCommunity"
   card: "summary_large_image"
   title: "Grand Lakes Community Portal"
-  description: "Dedicated to transparency and lawful governance across the four Grand Lakes water districts (MUDs & WCID). We inform taxpayers by tracking budgets, audits, spending, taxes, and public records."
+  description: "Grand Lakes water districts (MUDs & WCID). We inform taxpayers on governance, compliance, transparency, budgets, audits, spending, taxes, and public records."
 
 # Social/Community sharing image fallback
 social:
   name: "Grand Lakes Community Portal"
   links:
-    - https://www.facebook.com/GLKatyCommunity/
-    - https://x.com
+    - https://www.facebook.com/GLKatyCommunity
+    - https://x.com/GLKatyCommunity
 
 timezone: America/Chicago
 date_format: "%A, %B %d, %Y"
