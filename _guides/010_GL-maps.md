@@ -11,7 +11,7 @@ date: 2026-10-18
 The Grand Lakes community is served by three Municipal Utility Districts (MUDs) that cover three voter precincts: 1132, 1133, and 1144. The Grand Lakes Water Control and Improvement District (WCID) serves the entire Grand Lakes community, comprising some 2,740 residences and 40 local businesses. Below we make available the corresponding maps.
 
 <div class ="blblock">
-  <div class="title"><img src="/assets/imgs/dwnld.svg" style="margin-right: 5px;"> <strong>Download</strong></div>
+  <div class="title"><img src="/assets/imgs/dwnld.svg" alt="Download" style="margin-right: 5px;"> <strong>Download</strong></div>
   <div class="content"><a href="{{ '/assets/docs/glwdmaps.pdf' | relative_url }}">
              - The Grand Lakes Water Districts Map (PDF).</a><br>
              <a href="{{ '/assets/docs/glprcncts.pdf' | relative_url }}">

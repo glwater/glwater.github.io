@@ -81,5 +81,5 @@ The OMA is ultimately about a simple democratic principle: **The public has entr
 
 ### 🏛️ Downloads
 <div class ="block" style="margin-bottom: 16px;">
-<a href="https://www.texasattorneygeneral.gov/sites/default/files/files/divisions/open-government/openmeetings_hb.pdf"><img src="/assets/imgs/dwnld.svg" style="margin-right: 5px;"> Download the Open Meetings Act 2026 Handbook (PDF) - by the Office of the Attorney General of Texas.</a>
+<a href="https://www.texasattorneygeneral.gov/sites/default/files/files/divisions/open-government/openmeetings_hb.pdf"><img src="/assets/imgs/dwnld.svg" alt="Download" style="margin-right: 5px;"> Download the Open Meetings Act 2026 Handbook (PDF) - by the Office of the Attorney General of Texas.</a>
 </div>

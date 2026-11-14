@@ -94,5 +94,5 @@ The most powerful question is often not: **“What do we think happened?”** It
 
 ### 🏛️ Downloads
 <div class ="block" style="margin-bottom: 16px;">
-<a href="https://www.texasattorneygeneral.gov/sites/default/files/files/divisions/open-government/PIA-Handbook-2026.pdf"><img src="/assets/imgs/dwnld.svg" style="margin-right: 5px;"> Download the Public Information Act 2026 Handbook (PDF) - by the Office of the Attorney General of Texas.</a>
+<a href="https://www.texasattorneygeneral.gov/sites/default/files/files/divisions/open-government/PIA-Handbook-2026.pdf"><img src="/assets/imgs/dwnld.svg" alt="Download" style="margin-right: 5px;"> Download the Public Information Act 2026 Handbook (PDF) - by the Office of the Attorney General of Texas.</a>
 </div>

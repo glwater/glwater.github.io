@@ -38,7 +38,7 @@ Per a March 11, 2024 email from the Texas Commission on Environmental Quality ([
 * Austin County: 1
 * Wharton County: 9
 
-![](/assets/docs/wd.png)
+![Districts in the Greater Houston Area](/assets/docs/wd.png)
 
 [Schwartz, Page & Harding](https://www.sphllp.com/) administers [203 districts](https://drive.google.com/file/d/1soVNlqDWHr-RBFzjNem_CSAANjOC48Y9/view) in the Greater Houston area. In result, the Greater Houston area hosts slightly over 50% of the districts in the state of Texas. [Schwartz, Page & Harding](https://www.sphllp.com/) administers 14-15% of the districts in the Greater Houston area and 7-8% of the districts in the state of Texas. This law firm knows exactly what it is doing... 
 
