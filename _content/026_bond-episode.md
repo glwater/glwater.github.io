@@ -55,7 +55,7 @@ By the time we hit that 15-year cross-over point, we will still require another 
 > 📌 **Maturity**
 > Maturity (or maturity date) is the date by which the bond (principal and interest) must be fully paid off.
 
-### <img src="/assets/imgs/circig.svg"> 📝 📊 Interested in the Code and Data?
+### <img src="/assets/imgs/circig.svg" alt="Tip"> 📝 📊 Interested in the Code and Data?
 <div class ="block" style="margin-bottom: 16px;">
 • <a href="{{ '/assets/docs/bonds.py' | relative_url }}"> Python code (.py).</a>  <br>
 • <a href="{{ '/assets/docs/gl2bonds.pdf' | relative_url }}"> Bond Amortization Data (.pdf).</a>

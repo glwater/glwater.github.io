@@ -35,7 +35,7 @@ Have your child search for our local district's annual financial reports online:
 
 ### 📄 The Word Cloud
 <div class ="block" style="margin-bottom: 16px;">
-<img src="/assets/imgs/dwnld.svg" style="margin-right: 5px;"> Download the word cloud in one of twelve different color maps:<br>
+<img src="/assets/imgs/dwnld.svg" alt="Download" style="margin-right: 5px;"> Download the word cloud in one of twelve different color maps:<br>
 &nbsp; &nbsp; &nbsp; &nbsp; <a href="/assets/docs/GLflyerb.webp"> berlin ~ </a>
 <a href="/assets/docs/GLflyerc.webp"> coolwarm ~ </a>
 <a href="/assets/docs/GLflyercu.webp"> copper ~ </a>

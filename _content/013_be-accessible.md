@@ -39,5 +39,5 @@ We urge all twenty Grand Lakes board members to rethink this strange, inherited 
 
 You do not need to publish your private home address to be accessible. We challenge you, however, to create district-related email addresses (e.g., director.glmudx@isp.com) that only you access, *not* the law firm that wants you isolated.
 
-We ask you to encourage the public to email you directly with the issues dear to their hearts. Invite scrutiny, welcome conversation, and look your neighbors in the eye. Let's return the "public" to public service. Thank you <img src="/assets/imgs/!p.png">
+We ask you to encourage the public to email you directly with the issues dear to their hearts. Invite scrutiny, welcome conversation, and look your neighbors in the eye. Let's return the "public" to public service. Thank you <img src="/assets/imgs/!p.png" alt="!">
 </blockquote>

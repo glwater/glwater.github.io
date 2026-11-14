@@ -137,5 +137,5 @@ In this fourth quadrant, there is:
 ### 🔍 Interested in the Logic Diagrams?
 <div class ="block">
 <a href="{{ '/assets/docs/logic.pdf' | relative_url }}"> 
-  <img src="/assets/imgs/dwnld.svg" style="margin-right: 5px;"> Download them here (PDF).</a>
+  <img src="/assets/imgs/dwnld.svg" alt="Download" style="margin-right: 5px;"> Download them here (PDF).</a>
 </div>
