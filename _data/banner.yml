@@ -6,7 +6,7 @@
 # See the layout injection script in _includes/header (banner).html.
 
 # Set to 'true' to display the banner across the site, 'false' to hide it completely.
-show: true
+show: false
 
 # Style class based on urgency: 
 # 'caution' (red), 'warning' (orange), 'intel' (purple), 'tip (green), 'info' (blue)
