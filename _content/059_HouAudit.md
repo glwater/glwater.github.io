@@ -3,7 +3,7 @@ layout: page
 title: "Exercising Section 5.06: Why the City of Houston Must Immediately Audit Grand Lakes MUDs 1, 2, and 4"
 preview: "That the Grand Lakes water district cash reserves are being burned at an alarming pace, the City of Houston has both the contractual right and the public duty to step in with an immediate forensic audit across Grand Lakes MUD No. 2, MUD No. 1, and MUD No. 4."
 prvimg: "/assets/imgs/dewberry.jpg"
-tags: [MUD1, MUD2, MUD4, Schwartz Page & Harding, City of Houston, Strategic Partnership Agreement, The Home Depot]
+tags: [MUD1, MUD2, MUD4, Schwartz Page & Harding, City of Houston, Strategic Partnership Agreement, The Home Depot, audit]
 categories: [Governance, Compliance, Finances]
 date: 2026-11-21
 ---
@@ -15,7 +15,7 @@ Under Section 5.02 of the Strategic Partnership Agreement (effective March 15, 2
 
 Once [The Home Depot](https://www.homedepot.com/) corrected its reporting, annual SPA revenue plunged from a peak of **$5.16 million** in FY2022 down to **$339,369** in FY2025. Yet instead of scaling back spending to match reality, district consultants kept the spending machine running at full throttle:
 
-* **Rapid Reserve Depletion:** MUD No. 2’s reserves peaked at **$9,134,604** in FY2023, dropped to **$5,963,471** in FY2025, and fell further to **$4,352,960** by September 2026—a burn rate of **$1.3 million to $1.9 million per year**.
+* **Rapid Reserve Depletion:** MUD No. 2’s reserves peaked at **$9,134,604** in FY2023, dropped to **$5,963,471** in FY2025, and fell further to **$4,352,960** by October 2026—a burn rate of **$1.3 million to $1.9 million per year**.
 * **Wildly Disproportionate Spending:** Although [MUD No. 2](https://www.grandlakesmud2.com/) is completely debt-free and only **64% to 70% the size** of [MUD No. 1](https://www.grandlakesmud1.com/) and [MUD No. 4](https://www.grandlakesmud4.com/), it has been operated with **up to 46% higher expenditures** than its neighboring districts.
 * **Consultant Fee Escalation:** Annual increases in legal, operational, and consulting fees have far outpaced inflation, CPI, and normal municipal benchmarks—despite Grand Lakes being a fully built-out community with zero new residential development.
 
@@ -35,7 +35,7 @@ When a material breach is identified, the SPA obligates the [City of Houston](ht
 * **Determine** whether any non-compliance is excusable.
 * **Establish** a binding method and timeline for the District to cure the failure.
 
-If the failure is unexcused, **Section 8.04(A)** authorizes the City to pursue full legal and equitable remedies—including **monetary awards** and **termination of the SPA**. Furthermore, while Section 7.01 restricts unilateral full-purpose annexation during the 30-year term, **Texas Local Government Code § 43.0751(h)** confirms that the City may terminate the SPA and initiate annexation proceedings *at any time prior to March 2035* upon request of the District’s governing body.
+If the failure is unexcused, **Section 8.04(A)** authorizes the City to pursue full legal and equitable remedies—including **monetary awards** and **termination of the SPA**. Furthermore, while Section 7.01 restricts unilateral full-purpose annexation during the 30-year term, **Texas Local Government Code § [43.0751(h)](https://statutes.capitol.texas.gov/?tab=1&code=LG&chapter=LG.43&artSec=43.0751)** confirms that the City may terminate the SPA and initiate annexation proceedings *at any time prior to March 2035* upon request of the District’s governing body.
 
 ### What Houston Officials Should Demand Now
 * **Invoke SPA Section 5.06 immediately** across Grand Lakes [MUD No. 1](https://www.grandlakesmud1.com/), [MUD No. 2](https://www.grandlakesmud2.com/), and [MUD No. 4](https://www.grandlakesmud4.com/) for FY2013 through FY2026.
