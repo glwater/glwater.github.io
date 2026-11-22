@@ -59,4 +59,4 @@ Instead of rubber-stamping "one more year" of $1.1M+ security contracts or appro
  <div class="title"><h3>📑 References</h3></div>
  <div class="content">
 <a href="/assets/docs/SPA_mud2.pdf">
-• The City of Houston - Grand Lakes MUD2 Strategic Partnership Agreement .</a>
+• The City of Houston - Grand Lakes MUD2 Strategic Partnership Agreement.</a>
