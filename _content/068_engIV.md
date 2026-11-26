@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Three Boards, One Checkbook: Why Siloed Meetings Cost Grand Lakes Taxpayers Hundreds of Thousands"
-preview: "Grand Lakes MUD No. 1, MUD No. 2, and MUD No. 4 serve a single interconnected community of 2,739 homes and 38 businesses across 1,390 acres. They share water plants, a wastewater treatment plant, lift stations, and drainage outfalls. They also share the same legal counsel (Schwartz, Page & Harding), the same engineering firm (Pape-Dawson), and the same operator (MDS). As the three boards meet separately, said consultants greatly exploited information asymmetry as a tremendously expensive weapon against taxpayers."
+preview: "Grand Lakes MUD No. 1, MUD No. 2, and MUD No. 4 serve a single interconnected community of 2,739 homes and 38 businesses across 1,390 acres. They share water plants, a wastewater treatment plant, lift stations, and drainage outfalls. They also share the same legal counsel (Schwartz, Page & Harding), the same engineering firm (Pape-Dawson), and the same operator (MDS). As the three boards meet separately, said consultants greatly exploit information asymmetry as a tremendously expensive weapon against taxpayers."
 prvimg: "/assets/imgs/hbird1.jpg"
 tags: [MUD2, MUD1, MUD4, Pape-Dawson, Schwartz Page & Harding, rubber-stamp, information asymmetry]
 categories: [Governance, Oversight]
