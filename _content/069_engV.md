@@ -1,60 +1,38 @@
 ---
 layout: page
-title: "Sealed With a $10 Million Math Error: Inside Grand Lakes MUD No. 2’s $27.93M Bond Authorization Report"
-preview: "Severe mathematical errors, millions of dollars in unnecessary repairs, and enormous, compounding markups. We review the February 2, 2026 Grand Lakes MUD No. 2 Bond Authorization Report signed and sealed by Pape-Dawson senior project manager Jennifer R. Mays (P.E. license #107539)."
-prvimg: "/assets/imgs/myrtlew2.jpg"
-tags: [MUD2, MUD1, MUD4, tax burden, bonds, Capital Improvement Plan]
+title: "Three Boards, One Checkbook: Why Siloed Meetings Cost Grand Lakes Taxpayers Hundreds of Thousands"
+preview: "Grand Lakes MUD No. 1, MUD No. 2, and MUD No. 4 serve a single interconnected community of 2,739 homes and 38 businesses across 1,390 acres. They share water plants, a wastewater treatment plant, lift stations, and drainage outfalls. They also share the same legal counsel (Schwartz, Page & Harding), the same engineering firm (Pape-Dawson), and the same operator (MDS). As the three boards meet separately, said consultants greatly exploit information asymmetry as a tremendously expensive weapon against taxpayers."
+prvimg: "/assets/imgs/elderberry5.jpg"
+tags: [MUD2, MUD1, MUD4, Pape-Dawson, Schwartz Page & Harding, rubber-stamp, information asymmetry]
 categories: [Governance, Oversight]
 date: 2026-11-26
 ---
 
-On February 2, 2026, [Pape-Dawson](https://www.pape-dawson.com/) senior project manager **Jennifer R. Mays (P.E. license #107539)** signed and sealed the [**Grand Lakes MUD No. 2 Bond Authorization Report**](/assets/docs/202602_BondAuth.pdf), asking voters to authorize **$27,930,000** in new unlimited tax bonds ($25,570,000 in projected 25-year capital projects plus $2,360,000 in non-construction issuance costs)—atop the district’s existing $3,875,000 in unissued 1999 bond authority.
+Grand Lakes [MUD No. 1](https://www.grandlakesmud1.com/), [MUD No. 2](https://www.grandlakesmud2.com/), and [MUD No. 4](https://www.grandlakesmud4.com/) serve a single interconnected community of **2,739 homes and 38 businesses across 1,390 acres**. They share water plants, a wastewater treatment plant, lift stations, and drainage outfalls. Yet because the three boards meet separately—while sharing the same engineering firm ([Pape-Dawson](https://www.pape-dawson.com/)), the same operator ([MDS](https://mdswater.com/)), and the same legal counsel ([Schwartz, Page & Harding](https://www.sphllp.com/))—information asymmetry has become an expensive weapon against taxpayers.
 
-A forensic line-by-line review of the sealed report and its attached 25-year Capital Improvement Plan (CIP) (Exhibit A) reveals severe mathematical errors, shifting ownership percentages, and millions of dollars in repairs that the MUD’s own inspectors stated were unnecessary.
+### How Siloed Governance Hurts Residents
+- **Different Numbers for Different Boards:** In early 2026, Lift Station No. 1 engineering proposals were presented separately to MUD1 ($126,310), MUD2 ($125,020), and MUD4 ($133,491). None of the minutes reflect a unified master budget showing the combined **$384,821** engineering price tag or reconciling it against contractual ownership percentages.
+- **Unchecked Outfall & Drainage Splits:** Even basic drainage agreements—like the March 1999 agreement for the Dual 72-inch CMP outfall pipes at Buffalo Bayou and Fry Road (split 85.92% MUD4, 11.69% MUD2, and 2.39% MUD1)—were flagged by [Pape-Dawson](https://www.pape-dawson.com/) in May 2025 as no longer matching actual built infrastructure, yet joint-facility reconciliation dragged into late 2026.
+- **Rubber-Stamping vs. Oversight:** Across dozens of agenda items in 2026, motions to approve hundreds of thousands of dollars in engineering proposals, pay applications, and change orders passed unanimously without recorded questions—until isolated pushback in October 2026 (*see* the [MUD4 October 21, 2026 minutes](https://www.grandlakesmud4.com/static/72d0556b774bc0fa17321208b02d78c2/Minutes_2026_10_21_approved_9864_9cbf50143c.pdf)) proved that boards *do* have the power to reject inflated, unverified, unsubstantiated, or even questionable change orders. This, in fact, is **an obligation and a duty**.
 
-### 1. A $10,000,000 Addition Error
-On page 6/7 / (Table 1) of the [Bond Authorization Report](/assets/docs/202602_BondAuth.pdf), Section B (*Sanitary Sewer Collection, Transportation, Treatment and Disposal Facilities and Services*) lists four project categories for [MUD No. 2](https://www.grandlakesmud2.com/):
-* Wastewater Treatment Plant Rehabilitation: **$6,610,000**
-* Collection System Rehabilitation/Replacement: **$700,000**
-* Lift Station Nos. 1, 2, 3, 4 & 5 Rehabilitations: **$7,890,000**
-* Portable Gas Generator: **$50,000**
-
-Those four numbers add up to **$15,250,000**. Yet the printed bold subtotal directly beneath them on the sealed engineering report reads **$5,250,000**—an error of **$10,000,000** on the face of a certified public bond document.
-
-### 2. Three Different Numbers for the Same Developer Reimbursement
-In the very same report, [Pape-Dawson](https://www.pape-dawson.com/) cannot even keep the reimbursement price for the **8-inch Jason’s Deli water line loop** consistent:
-* **[Bond Authorization Report](/assets/docs/202602_BondAuth.pdf) Narrative (Page 3/7):** Lists the developer reimbursement cost at **$190,000**.
-* **Table 1 (Page 6/7) of the [Bond Authorization Report](/assets/docs/202602_BondAuth.pdf):** Lists the exact same line item at **$90,000**—a $100,000 discrepancy within three pages.
-* **Monthly Engineering Reports (Febreuary–May 2026) & Bond Application Summary:** The [Pape-Dawson](https://www.pape-dawson.com/) February to May 2026 monthly engineering reports list the preliminary reimbursement estimate at **$187,000**. Then the figure shows as **$187,336** in a Summary of Costs attached to [Pape-Dawson's October 14, 2026  proposal to MUD No. 2](/assets/docs/20261014_PDprop.pdf).
-
-### 3. Billing Taxpayers for Tanks That Passed Inspection
-Exhibit A (revised Nov. 13, 2025) schedules millions of dollars in tank recoating and generator replacements across Water Plants No. 1 and No. 2—even though Pape-Dawson’s own footnotes admit the equipment is in good working order:
-* **Water Plant No. 1 GSTs No. 2 & 3 ($318,794 each, rising to $549,408 with inflation):** Footnote 5 states: *"No Corrective Action required per 2023 Preventive Services Inspection Report."*
-* **Water Plant No. 2 GSTs No. 1 & 2 ($226,452 each, rising to $568,637 with inflation):** Footnote 6 repeats: *"No Corrective Action required per 2023 Preventive Services Inspection Report."*
-* **Emergency Generators ($1.43M at WP2; $2.23M at WP1; $3.75M at WWTP):** Footnotes 5 and 7 admit that per operator MDS, *"the generator is working well."*
-
-### 4. Enormous, Compounding Markups: Tariffs + 20% Contingency + 15% Engineering + 3.5% Annual Inflation
-To inflate the 25-year bond ask to $27.93 million, [Pape-Dawson](https://www.pape-dawson.com/) stacked four layers of cost escalators onto baseline estimates:
-- **Arbitrary "Tariff Adjustment Factors" (Footnote 2):** Adding +25% on electrical, +20% on steel, +15% on pumps/blowers, +10% on coatings/resin, and +6% on chemicals to 2025 base numbers.
-- **20% Contingencies:** Adding **$5,080,000** across the CIP.
-- **15% Engineering/Technical Services:** Reserving **$3,840,000** in future engineering fees.
-- **3.5% Compounding Annual Inflation** through the year 2050—more than 15 years *after* the 2034–2035 City of Houston Strategic Partnership Agreement (SPA) annexation horizon.
-
-The four categories of markups would then **easily amount to 40-50%** of the Design, Construction, Purchase, and Acquisition Costs estimated at $25.57M. And on top of the markups comes another $2.36M in **non-construction issuance costs**.
-
-### 5. Built-In Consultant Windfalls
-Even before a single shovel hits the ground, Table 2 (Page 7/7) of the [Bond Authorization Report](/assets/docs/202602_BondAuth.pdf) earmarks **$2,360,000** in non-construction expenses—including **$639,250 in Legal Fees (2.5%)** for [Schwartz, Page & Harding](https://www.sphllp.com/), **$511,400 in Fiscal Agent Fees (2%)**, **$767,100 in Bond Discount (3%)**, and **$300,000 in Bond Application Report Costs**.
-
-### The Consultants' Coordinated Efforts
-Legal counsel [Schwartz, Page & Harding](https://www.sphllp.com/), engineer [Pape-Dawson](https://www.pape-dawson.com/), operator [MDS](https://mdswater.com/), bookkeeper [Municipal Accounts & Consulting](https://municipalaccounts.com/), and behind-the-scenes consultants worked systematically to push through $27.93M in bonds—a move that would have cost residents roughly $47M out of pocket. They were aided by three board members—William Donald Butler, Gregory Jay Henry, and Bradley Allen Baker—who approved the measure during MUD2's February 2, 2026 meeting. Their efforts were in vain, as residents defeated the bond authorization in the May 2026 election.
-
-For elaborate coverage, *see* our articles on the ~$47M bonds, [The Home Depot](https://www.homedepot.com/) accounting errors and the resulting $22.8M in "free money" to MUD2, and the systemic depletion of MUD2's reserves.
+### Five Immediate Safeguards Residents Should Demand
+- **Mandatory Joint-Facility Dashboards:** Every shared project proposal must display the **total combined cost across all three MUDs** alongside the exact contractual pro-rata split before any board votes.
+- **Direct Contracting for Subconsultants:** Eliminate 10% engineering markups by contracting directly with testing and inspection firms (such as Preventive Services and Ninyo & Moore), as Pape-Dawson’s own contract templates recommend.
+- **Written Justification for Non-Low Bids:** Prohibit awarding any public contract above the lowest sealed bid without a detailed, written engineering and legal evaluation attached to the public minutes.
+- **Independent Engineering Audits:** Retain an independent third-party engineer to audit Pape-Dawson’s Capital Improvement Plan and any Bond Authorization Reports before any new debt is issued.
+- **Public Open-Session Deliberation:** End the practice of rubber-stamping multi-hundred-thousand-dollar engineer reports without line-item review in open session.
 
 <div class ="blblock">
  <div class="title"><h3>📑 References</h3></div>
  <div class="content">
-<a href="/assets/docs/202602_BondAuth.pdf">
-• Bond Authorization Report, prepared by Pape-Dawson for Grand Lakes MUD No. 2.</a><br>
+<a href="https://www.grandlakesmud1.com/static/ddcb94670c8145dc5746a5abb4face8c/Minutes_2025_12_01_APPROVED_GLMUD_1_826139_2_6961f69af5.pdf">
+• Board minutes for the Grand Lakes MUD No. 1 meeting of December 1, 2025.</a><br>
 
-<a href="/assets/docs/20261014_PDprop.pdf">
-• Pape-Dawson's October 14, 2026 proposal to Grand Lakes MUD No. 2.</a>
+<a href="https://www.grandlakesmud2.com/static/b0eb35b7c086c589e16aca20e03babcd/02_02_2026_Approved_Minutes_GL_MUD_2_51acef1c9b.pdf">
+• Board minutes for the Grand Lakes MUD No. 2 meeting of February 2, 2026.</a><br>
+
+<a href="https://www.grandlakesmud4.com/static/5afc312f2ffcf2ee4429be2ddfe89b49/Minutes_2026_02_18_APPROVED_GLMUD_4_874bf0264e.pdf">
+• Board minutes for the Grand Lakes MUD No. 4 meeting of February 18, 2026.</a><br>
+
+<a href="https://www.grandlakesmud4.com/static/72d0556b774bc0fa17321208b02d78c2/Minutes_2026_10_21_approved_9864_9cbf50143c.pdf">
+• Board minutes for the Grand Lakes MUD No. 4 meeting of October 21, 2026.</a>

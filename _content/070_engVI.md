@@ -1,53 +1,58 @@
 ---
 layout: page
-title: "The $3.165M Bond Application Shell Game: Why Grand Lakes MUD No. 2 Is Being Billed 100% of Lift Station No. 1 and 33.7% of the WWTP"
-preview: "In September and October 2026, Grand Lakes MUD No. 2’s board approved a $50,000 lump-sum contract with Pape-Dawson to prepare a TCEQ Bond Application Report for a $3,165,000 bond issuance. Attached to the contract is a Preliminary Summary of Costs—a single-page table that exposes how regional infrastructure costs are being arbitrarily dumped onto the MUD No. 2 taxpayers."
-prvimg: "/assets/imgs/hibiscus6.jpg"
-tags: [MUD2, MUD1, MUD4, bonds, lift station, Schwartz Page & Harding, Pape-Dawson]
-categories: [Governance, Oversight]
+title: "Sealed & Stamped: Examining Pape-Dawson’s Billing Practices, Change Orders, and Texas Engineering Ethics"
+preview: "A review of 2025–2026 engineering proposals, minutes, and reports provided to the Grand Lakes water districts by engineering firm Pape-Dawson and its staff reveal multiple red flags that warrant regulatory and forensic review."
+prvimg: "/assets/imgs/hbird1.jpg"
+tags: [MUD2, MUD1, MUD4, WCID, Pape-Dawson, TBPELS, ethics, bonds]
+categories: [Governance, Oversight, Ethics]
 date: 2026-11-26
 ---
 
-In September and October 2026, Grand Lakes MUD No. 2’s board approved a **$50,000 lump-sum [contract](/assets/docs/20261014_PDprop.pdf)** with [Pape-Dawson](https://www.pape-dawson.com/) to prepare a [TCEQ](https://www.tceq.texas.gov/) Bond Application Report for a **$3,165,000** bond issuance. MUD2 board vice president William Donald Butler signed the [contract](/assets/docs/20261014_PDprop.pdf) on October 19, 2026. Attached to the [contract](/assets/docs/20261014_PDprop.pdf) is a **Preliminary Summary of Costs**—a single-page table that exposes how regional infrastructure costs are being arbitrarily dumped onto [Grand Lakes MUD No. 2](https://www.grandlakesmud2.com/) taxpayers.
+Licensed Professional Engineers (P.E.) in Texas are bound by the [**Texas Engineering Practice Act \| Occupations Code Capter 1001**](https://statutes.capitol.texas.gov/?tab=1&code=OC&chapter=OC.1001&artSec=) and the "Compliance and Professionalism for Engineers" rules [**22 TAC Chapter 137**](https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=137&interface=VIEW_TAC&part=6&title=22) of the [**Texas Board of Professional Engineers and Land Surveyors (TBPELS)**](https://pels.texas.gov/). Above all else, a P.E.’s primary obligation is to protect public health, safety, and welfare—and to act as a faithful agent and trustee for public clients.
 
-### 1. Shifting 100% of Lift Station No. 1 Construction onto MUD 2
-Lift Station No. 1 is a shared facility serving the Grand Lakes districts. In January and February 2026, all three boards paid roughly one-third each of the **$384,821** engineering design fees ($126,310 MUD1; $125,020 MUD2; $133,491 MUD4). *See* the MUD No. 1, MUD No. 2, and MUD No. 4 board minutes of December 1, 2025, February 2, 2026, and February 18, 2026, respectively.
+A review of 2025–2026 engineering proposals, minutes, and the February 2026 [Bond Authorization Report](/assets/docs/202602_BondAuth.pdf) signed and sealed by **Jennifer R. Mays (P.E. license #107539)** reveals multiple red flags that warrant regulatory and forensic review.
 
-Yet in the Preliminary Summary of Costs (Items A.4 and A.5), [Pape-Dawson](https://www.pape-dawson.com/) assigns **100% of the construction costs** to [MUD No. 2](https://www.grandlakesmud2.com/)—and **0.00%** to MUD1 and MUD4. Together, **$1,079,073** in lift station construction is loaded entirely onto MUD 2’s 682 homes.
-* **Lift Station No. 1 Construction:** **$990,376** (listed as $991,629 in the Sept. draft) — 0.00% MUD1 \| 100.00% MUD2 \| 0.00% MUD4.
-* **Lift Stations Manual Transfer Switches & Fittings:** **$88,697** — 0.00% MUD1 \| 100.00% MUD2 \| 0.00% MUD4.
+### Contradictory Contract Terms & Subconsultant Markups
+In Pape-Dawson’s [**December 12, 2025 proposal**](/assets/docs/20251212_PDprop.pdf) to [MUD No. 2](https://www.grandlakesmud2.com/) for Lift Station No. 1 ($125,020), the firm billed **$7,040** for coating inspection (Preventive Services’ $6,400 fee plus a 10% markup) and **$6,050** for material testing (Ninyo & Moore’s $5,500 fee plus a 10% markup). Yet on page 3 of the exact same proposal, Pape-Dawson’s boilerplate exclusions state:
+* *"Excludes coating inspection during construction, to be provided through direct agreement between District and coating inspection firm (to avoid engineer markup)."*
+* *"Excludes material testing during construction, to be provided through direct agreement between District and geotechnical engineering firm (to avoid engineer markup)."*
 
-### 2. Charging MUD2 33.66% of WWTP Costs Instead of Its Contractual 21.08%
-Under the Grand Lakes regional agreements and MUD audit reports, [MUD No. 2](https://www.grandlakesmud2.com/) owns **21.08%** of the Wastewater Treatment Plant (WWTP) capacity and **21.55%** of the Water Plant capacity. Yet on the Summary of Costs table, [Pape-Dawson](https://www.pape-dawson.com/) bills [MUD No. 2](https://www.grandlakesmud2.com/) based on inflated percentages. Across just those four shared projects—before even counting the $1.08M Lift Station shift—[MUD No. 2](https://www.grandlakesmud2.com/) taxpayers are being charged **$491,921 more** than their contractual ownership shares.
+The MUD was charged a 10% markup on subconsultants whose services the contract’s own exclusions stated should be contracted directly *specifically to avoid that markup*.
 
-| Regional Project | Total Project Cost | Contractual MUD2 Share | Actual Share Billed to MUD2 | Extra Cost Shifted onto MUD2 |
-| :--- | :--- | :--- | :--- | :--- |
-| **WWTP Diesel Generator & Control Panel** | $1,723,152 | 21.08% ($363,240) | **33.6591%** ($579,991) | **+$216,751** |
-| **WWTP Headworks Bar Screen** | $505,575 | 21.08% ($106,575) | **33.6591%** ($170,172) | **+$63,597** |
-| **GST No. 1 Recoating (WP No. 1)** | $659,418 | 21.55% ($142,105) | **33.1083%** ($218,322) | **+$76,217** |
-| **Peek & Fry Rd. Waterline** | $475,765 | 21.55% ($102,527) | **50.0000%** ($237,883) | **+$135,356** |
-| **Total Over-Allocation (4 Items)** | **$3,363,910** | **$714,447** | **$1,206,368** | **+$491,921** |
+### The "Change Order" & Extra-Fee Escalator
+Across multiple projects in 2026, initial budgets were repeatedly followed by supplemental fee requests and change orders:
+* **Peek & Fry Rd. Waterline:** After an initial $85,000 engineering estimate (May 2025), [Pape-Dawson](https://www.pape-dawson.com/) requested **$69,800** for Construction-Phase Services in May 2026—which was only reduced to **$58,100** after [MUD No. 4](https://www.grandlakesmud4.com/) board member Gesoff questioned a 4-month observation timeline and cut it to 10 weeks ([MUD4 May 20, 2026 board minutes](https://www.grandlakesmud4.com/static/23cca2638c6f133ec2811cdd6957bc62/Minutes_2026_05_20_APPROVED_9864_a8d10f9e67.pdf)). By August 2026, contractor [ARS Construction](https://arsconstruct.com/) submitted **Change Order No. 1 ($14,939)** after hitting a boring issue, while [Katy ISD](https://www.katyisd.org/) complained about blocked sidewalks at the site ([MUD4 August 19, 2026 board minutes](https://www.grandlakesmud4.com/static/68809fd14dcb916ddae88f56539b0521/Minutes_August_19_2026_Approved_GLMUD_4_2_2d38ac950b.pdf)).
+* **SH 99 Reclaimed Waterline Relocation:** Even though [TxDOT](https://www.txdot.gov/) had previously agreed to joint-bid the relocation, [Pape-Dawson](https://www.pape-dawson.com/) billed [MUD No. 4](https://www.grandlakesmud4.com/) an extra **$12,000** in May 2026 after [TxDOT](https://www.txdot.gov/) refused to pay for a [TxDOT](https://www.txdot.gov/)-required redesign—passing costs straight to residents over director Konyndyk’s lone "no" vote ([MUD4 May 20, 2026 board minutes](https://www.grandlakesmud4.com/static/23cca2638c6f133ec2811cdd6957bc62/Minutes_2026_05_20_APPROVED_9864_a8d10f9e67.pdf)).
+* **Lift Station No. 1:** Before construction bids were even advertised, additional proposals appeared for fencing ($3,000 \| [MUD1 June 1, 2026 board minutes](https://www.grandlakesmud1.com/static/920f1cb6a59a578b37644a6c983e1bb9/Minutes_2026_06_01_APPROVED_9861_b06903a59d.pdf)) and Additional Services Request No. 1 ($7,040 \| [MUD4 September 16, 2026 board minutes](https://www.grandlakesmud4.com/static/238a8a300691853ce1edfe096315f672/Minutes_2026_09_16_approved_9864_1_f7c8fa3e86.pdf)).
 
-### 3. $508,378 in Fees & Incidental Costs on a $3.165M Bond
-The Summary of Costs table shows that to borrow **$2,656,624** for construction items, [MUD No. 2](https://www.grandlakesmud2.com/) taxpayers must issue **$3,165,000** in bonds—losing **16.1% ($508,378)** immediately to transaction overhead.
-* **Capitalized Interest (1 yr @ 5%):** $158,250.
-* **Bond Discount (3%):** $94,950.
-* **Legal Fees ([Schwartz, Page & Harding](https://www.sphllp.com/) — 3.5% first $1M, 2.5% over $1M):** $89,125.
-* **Fiscal Agent Fees ($50k base + 1.5% over $2.5M):** $59,975.
-* **[Pape-Dawson](https://www.pape-dawson.com/) Bond Application Report Fee:** $50,000 (initially pitched as "Bond Application No. 5" in September 2026, then re-dated as "Bond Application No. 6" in October 2026 under identical Job No. `14041434-021`).
-* **Issuance, [TCEQ](https://www.tceq.texas.gov/) & [Attorney General](https://www.texasattorneygeneral.gov/) Fees:** $56,078.
+### The $25.57 Million Bond Authorization Report
+On February 2, 2026, Jennifer R. Mays affixed her official Texas Professional Engineer seal to the [**MUD No. 2 Bond Authorization Report**](/assets/docs/202602_BondAuth.pdf), projecting **$25,570,000** in 25-year capital needs—a massive expansion atop the MUD's original 1999 authorization of $20,940,000 (of which $3,875,000 remained unissued). Adding **$2,360,000 in non-construction issuance costs**, the new unlimited tax bonds would total **$27,930,000**. Our article ["Grand Lakes MUD No. 2 and the $46.6 million bond episode"](./026_bond-episode) presented a thorough analysis of the bonds and the corresponding impact to the MUD2 taxpayers.
+
+Key concerns in the sealed report include:
+- **Inconsistent Ownership Figures:** On page 2 of the report, MUD 2’s Water Plant capacity share is listed as **21.5544%**, whereas Pape-Dawson’s own May 21, 2025 Engineering Report lists MUD 2’s contractual water split as **21.5455%**. The MUD's audit report presents its share as 21.546%.
+- **Inflated 25-Year Projections Justifying Immediate Debt:** The report bundles **$2.91M** for Water Plant 1, **$2.23M** for Water Plant 2, **$2.15M** for waterlines, and **$6.61M** for WWTP rehabilitation—alongside **$50,000** in immediate [Pape-Dawson](https://www.pape-dawson.com/) fees to prepare Bond Application No. 6—at a time when Grand Lakes MUDs are approaching the 2034–2035 City of Houston Strategic Partnership Agreement (SPA) annexation horizon.
+- **15% Engineering Fee Assumptions:** As confirmed in the [August 31, 2026 MUD No. 1 minutes](https://www.grandlakesmud1.com/static/4b05c47514605c5d01f964ab50a7a144/Minutes_2026_08_31_approved_9861_08a3d6bbfe.pdf), Pape-Dawson’s Capital Improvement Plan builds in **15% engineering fees** across construction projects—creating a direct financial incentive for the engineering firm to recommend higher-cost capital projects and larger bond authorizations.
 
 <div class ="blblock">
- <div class="title"><h3>📑 References: the underlying record</h3></div>
+ <div class="title"><h3>📑 References</h3></div>
  <div class="content">
-<a href="https://www.grandlakesmud1.com/static/ddcb94670c8145dc5746a5abb4face8c/Minutes_2025_12_01_APPROVED_GLMUD_1_826139_2_6961f69af5.pdf">
-• Board minutes for the Grand Lakes MUD No. 1 meeting of December 1, 2025.</a><br>
+<a href="/assets/docs/20251212_PDprop.pdf">
+• Pape-Dawson's December 12, 2025 proposal.</a><br>
 
-<a href="https://www.grandlakesmud2.com/static/b0eb35b7c086c589e16aca20e03babcd/02_02_2026_Approved_Minutes_GL_MUD_2_51acef1c9b.pdf">
-• Board minutes for the Grand Lakes MUD No. 2 meeting of February 2, 2026.</a><br>
+<a href="/assets/docs/202602_BondAuth.pdf">
+• Bond Authorization Report, prepared by Pape-Dawson for Grand Lakes MUD No. 2.</a><br>
 
-<a href="https://www.grandlakesmud4.com/static/5afc312f2ffcf2ee4429be2ddfe89b49/Minutes_2026_02_18_APPROVED_GLMUD_4_874bf0264e.pdf">
-• Board minutes for the Grand Lakes MUD No. 4 meeting of February 18, 2026.</a><br>
+<a href="https://www.grandlakesmud4.com/static/23cca2638c6f133ec2811cdd6957bc62/Minutes_2026_05_20_APPROVED_9864_a8d10f9e67.pdf">
+• Board minutes for the Grand Lakes MUD No. 4 meeting of May 20, 2026.</a><br>
 
-<a href="/assets/docs/20261014_PDprop.pdf">
-• Pape-Dawson's October 14, 2026 proposal to Grand Lakes MUD No. 2, signed into contract on October 19, 2026, by MUD2 board vice president William Donald Butler.</a>
+<a href="https://www.grandlakesmud4.com/static/68809fd14dcb916ddae88f56539b0521/Minutes_August_19_2026_Approved_GLMUD_4_2_2d38ac950b.pdf">
+• Board minutes for the Grand Lakes MUD No. 4 meeting of August 19, 2026.</a><br>
+
+<a href="https://www.grandlakesmud4.com/static/238a8a300691853ce1edfe096315f672/Minutes_2026_09_16_approved_9864_1_f7c8fa3e86.pdf">
+• Board minutes for the Grand Lakes MUD No. 4 meeting of September 16, 2026.</a><br>
+
+<a href="https://www.grandlakesmud1.com/static/920f1cb6a59a578b37644a6c983e1bb9/Minutes_2026_06_01_APPROVED_9861_b06903a59d.pdf">
+• Board minutes for the Grand Lakes MUD No. 1 meeting of June 1, 2026.</a><br>
+
+<a href="https://www.grandlakesmud1.com/static/4b05c47514605c5d01f964ab50a7a144/Minutes_2026_08_31_approved_9861_08a3d6bbfe.pdf">
+• Board minutes for the Grand Lakes MUD No. 1 meeting of August 31, 2026.</a>
